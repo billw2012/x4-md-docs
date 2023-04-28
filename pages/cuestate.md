@@ -1,13 +1,10 @@
 ---
 title: cuestate
 description: Properties of cuestate
-display_order: 1
+display_order: 85
+nav_order: 85
+parent: Index
+layout: default
 ---
 
 ## cuestateinherits from [`kwenum`](./kwenum.html)
-
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-

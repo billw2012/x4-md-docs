@@ -1,7 +1,10 @@
 ---
 title: faction
 description: Properties of faction
-display_order: 1
+display_order: 41
+nav_order: 41
+parent: Index
+layout: default
 ---
 
 ## factioninherits from [`dbdata`](./dbdata.html)

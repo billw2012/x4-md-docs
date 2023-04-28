@@ -1,7 +1,10 @@
 ---
 title: time
 description: Properties of time
-display_order: 1
+display_order: 151
+nav_order: 151
+parent: Index
+layout: default
 ---
 
 ## timeinherits from [`numeric`](./numeric.html)

@@ -1,7 +1,10 @@
 ---
 title: missiongroup
 description: Properties of missiongroup
-display_order: 1
+display_order: 14
+nav_order: 14
+parent: Index
+layout: default
 ---
 
 ## missiongroupinherits from [`dbdata`](./dbdata.html)

@@ -1,7 +1,10 @@
 ---
 title: shiptype
 description: Properties of shiptype
-display_order: 1
+display_order: 86
+nav_order: 86
+parent: Index
+layout: default
 ---
 
 ## shiptypeinherits from [`enum`](./enum.html)

@@ -1,7 +1,10 @@
 ---
 title: trade
 description: Properties of trade
-display_order: 1
+display_order: 108
+nav_order: 108
+parent: Index
+layout: default
 ---
 
 ## trade

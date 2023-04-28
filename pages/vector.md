@@ -1,7 +1,10 @@
 ---
 title: vector
 description: Properties of vector
-display_order: 1
+display_order: 8
+nav_order: 8
+parent: Index
+layout: default
 ---
 
 ## vector

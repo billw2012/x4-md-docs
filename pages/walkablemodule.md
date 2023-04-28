@@ -1,7 +1,10 @@
 ---
 title: walkablemodule
 description: Properties of walkablemodule
-display_order: 1
+display_order: 15
+nav_order: 15
+parent: Index
+layout: default
 ---
 
 ## walkablemoduleinherits from [`module`](./module.html)

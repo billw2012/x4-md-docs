@@ -1,7 +1,10 @@
 ---
 title: containercargolist
 description: Properties of containercargolist
-display_order: 1
+display_order: 70
+nav_order: 70
+parent: Index
+layout: default
 ---
 
 ## containercargolistinherits from [`cargolist`](./cargolist.html)

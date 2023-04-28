@@ -1,7 +1,10 @@
 ---
 title: zone
 description: Properties of zone
-display_order: 1
+display_order: 58
+nav_order: 58
+parent: Index
+layout: default
 ---
 
 ## zoneinherits from [`space`](./space.html)

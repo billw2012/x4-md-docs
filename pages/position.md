@@ -1,7 +1,10 @@
 ---
 title: position
 description: Properties of position
-display_order: 1
+display_order: 155
+nav_order: 155
+parent: Index
+layout: default
 ---
 
 ## position

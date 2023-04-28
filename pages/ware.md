@@ -1,7 +1,10 @@
 ---
 title: ware
 description: Properties of ware
-display_order: 1
+display_order: 27
+nav_order: 27
+parent: Index
+layout: default
 ---
 
 ## wareinherits from [`dbdata`](./dbdata.html)

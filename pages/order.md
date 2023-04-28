@@ -1,7 +1,10 @@
 ---
 title: order
 description: Properties of order
-display_order: 1
+display_order: 35
+nav_order: 35
+parent: Index
+layout: default
 ---
 
 ## order

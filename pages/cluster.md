@@ -1,7 +1,10 @@
 ---
 title: cluster
 description: Properties of cluster
-display_order: 1
+display_order: 73
+nav_order: 73
+parent: Index
+layout: default
 ---
 
 ## clusterinherits from [`space`](./space.html)

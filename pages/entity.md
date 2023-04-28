@@ -1,7 +1,10 @@
 ---
 title: entity
 description: Properties of entity
-display_order: 1
+display_order: 3
+nav_order: 3
+parent: Index
+layout: default
 ---
 
 ## entityinherits from [`component`](./component.html)

@@ -1,7 +1,10 @@
 ---
 title: buildmodule
 description: Properties of buildmodule
-display_order: 1
+display_order: 97
+nav_order: 97
+parent: Index
+layout: default
 ---
 
 ## buildmoduleinherits from [`walkablemodule`](./walkablemodule.html)

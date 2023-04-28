@@ -1,7 +1,10 @@
 ---
 title: pier
 description: Properties of pier
-display_order: 1
+display_order: 106
+nav_order: 106
+parent: Index
+layout: default
 ---
 
 ## pierinherits from [`module`](./module.html)

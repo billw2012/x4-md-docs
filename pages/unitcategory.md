@@ -1,7 +1,10 @@
 ---
 title: unitcategory
 description: Properties of unitcategory
-display_order: 1
+display_order: 37
+nav_order: 37
+parent: Index
+layout: default
 ---
 
 ## unitcategoryinherits from [`enum`](./enum.html)

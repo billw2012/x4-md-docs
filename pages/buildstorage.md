@@ -1,7 +1,10 @@
 ---
 title: buildstorage
 description: Properties of buildstorage
-display_order: 1
+display_order: 90
+nav_order: 90
+parent: Index
+layout: default
 ---
 
 ## buildstorageinherits from [`container`](./container.html)

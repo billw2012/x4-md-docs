@@ -1,7 +1,10 @@
 ---
 title: highwayexitgate
 description: Properties of highwayexitgate
-display_order: 1
+display_order: 96
+nav_order: 96
+parent: Index
+layout: default
 ---
 
 ## highwayexitgateinherits from [`object`](./object.html)

@@ -1,7 +1,10 @@
 ---
 title: crate
 description: Properties of crate
-display_order: 1
+display_order: 55
+nav_order: 55
+parent: Index
+layout: default
 ---
 
 ## crateinherits from [`destructible`](./destructible.html)

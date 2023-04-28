@@ -1,13 +1,10 @@
 ---
 title: constructionplanentryid
 description: Properties of constructionplanentryid
-display_order: 1
+display_order: 19
+nav_order: 19
+parent: Index
+layout: default
 ---
 
 ## constructionplanentryid
-
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-

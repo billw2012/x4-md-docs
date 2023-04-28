@@ -1,7 +1,10 @@
 ---
 title: entitytype
 description: Properties of entitytype
-display_order: 1
+display_order: 5
+nav_order: 5
+parent: Index
+layout: default
 ---
 
 ## entitytypeinherits from [`dbdata`](./dbdata.html)

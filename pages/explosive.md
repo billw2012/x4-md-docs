@@ -1,7 +1,10 @@
 ---
 title: explosive
 description: Properties of explosive
-display_order: 1
+display_order: 23
+nav_order: 23
+parent: Index
+layout: default
 ---
 
 ## explosiveinherits from [`object`](./object.html)

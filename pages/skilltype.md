@@ -1,7 +1,10 @@
 ---
 title: skilltype
 description: Properties of skilltype
-display_order: 1
+display_order: 47
+nav_order: 47
+parent: Index
+layout: default
 ---
 
 ## skilltypeinherits from [`enum`](./enum.html)

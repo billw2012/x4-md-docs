@@ -1,7 +1,10 @@
 ---
 title: ventureplatform
 description: Properties of ventureplatform
-display_order: 1
+display_order: 82
+nav_order: 82
+parent: Index
+layout: default
 ---
 
 ## ventureplatforminherits from [`module`](./module.html)

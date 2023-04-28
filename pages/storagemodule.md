@@ -1,7 +1,10 @@
 ---
 title: storagemodule
 description: Properties of storagemodule
-display_order: 1
+display_order: 123
+nav_order: 123
+parent: Index
+layout: default
 ---
 
 ## storagemoduleinherits from [`module`](./module.html)

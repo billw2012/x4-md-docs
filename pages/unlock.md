@@ -1,7 +1,10 @@
 ---
 title: unlock
 description: Properties of unlock
-display_order: 1
+display_order: 122
+nav_order: 122
+parent: Index
+layout: default
 ---
 
 ## unlockinherits from [`dbdata`](./dbdata.html)

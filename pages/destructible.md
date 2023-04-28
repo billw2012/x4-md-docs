@@ -1,7 +1,10 @@
 ---
 title: destructible
 description: Properties of destructible
-display_order: 1
+display_order: 62
+nav_order: 62
+parent: Index
+layout: default
 ---
 
 ## destructibleinherits from [`component`](./component.html)

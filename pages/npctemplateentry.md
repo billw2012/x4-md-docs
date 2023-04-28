@@ -1,7 +1,10 @@
 ---
 title: npctemplateentry
 description: Properties of npctemplateentry
-display_order: 1
+display_order: 71
+nav_order: 71
+parent: Index
+layout: default
 ---
 
 ## npctemplateentry

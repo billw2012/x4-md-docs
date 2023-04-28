@@ -1,7 +1,10 @@
 ---
 title: controlposition
 description: Properties of controlposition
-display_order: 1
+display_order: 125
+nav_order: 125
+parent: Index
+layout: default
 ---
 
 ## controlpositioninherits from [`enum`](./enum.html)

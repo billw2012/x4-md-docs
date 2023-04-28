@@ -1,7 +1,10 @@
 ---
 title: welfaremodule
 description: Properties of welfaremodule
-display_order: 1
+display_order: 154
+nav_order: 154
+parent: Index
+layout: default
 ---
 
 ## welfaremoduleinherits from [`module`](./module.html)

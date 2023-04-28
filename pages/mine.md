@@ -1,7 +1,10 @@
 ---
 title: mine
 description: Properties of mine
-display_order: 1
+display_order: 156
+nav_order: 156
+parent: Index
+layout: default
 ---
 
 ## mineinherits from [`object`](./object.html)

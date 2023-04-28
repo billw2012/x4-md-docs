@@ -1,7 +1,10 @@
 ---
 title: collectableblueprints
 description: Properties of collectableblueprints
-display_order: 1
+display_order: 18
+nav_order: 18
+parent: Index
+layout: default
 ---
 
 ## collectableblueprintsinherits from [`collectable`](./collectable.html)

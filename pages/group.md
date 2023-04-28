@@ -1,7 +1,10 @@
 ---
 title: group
 description: Properties of group
-display_order: 1
+display_order: 61
+nav_order: 61
+parent: Index
+layout: default
 ---
 
 ## group

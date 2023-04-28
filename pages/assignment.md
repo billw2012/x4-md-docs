@@ -1,7 +1,10 @@
 ---
 title: assignment
 description: Properties of assignment
-display_order: 1
+display_order: 74
+nav_order: 74
+parent: Index
+layout: default
 ---
 
 ## assignmentinherits from [`dbdata`](./dbdata.html)

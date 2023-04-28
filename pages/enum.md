@@ -1,13 +1,10 @@
 ---
 title: enum
 description: Properties of enum
-display_order: 1
+display_order: 114
+nav_order: 114
+parent: Index
+layout: default
 ---
 
 ## enum
-
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-

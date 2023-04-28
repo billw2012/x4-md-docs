@@ -1,7 +1,10 @@
 ---
 title: navbeacon
 description: Properties of navbeacon
-display_order: 1
+display_order: 21
+nav_order: 21
+parent: Index
+layout: default
 ---
 
 ## navbeaconinherits from [`object`](./object.html)

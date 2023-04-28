@@ -1,7 +1,10 @@
 ---
 title: collectableammo
 description: Properties of collectableammo
-display_order: 1
+display_order: 25
+nav_order: 25
+parent: Index
+layout: default
 ---
 
 ## collectableammoinherits from [`collectable`](./collectable.html)

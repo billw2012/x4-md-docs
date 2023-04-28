@@ -1,13 +1,10 @@
 ---
 title: roomtype
 description: Properties of roomtype
-display_order: 1
+display_order: 89
+nav_order: 89
+parent: Index
+layout: default
 ---
 
 ## roomtypeinherits from [`enum`](./enum.html)
-
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-

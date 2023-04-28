@@ -1,7 +1,10 @@
 ---
 title: region
 description: Properties of region
-display_order: 1
+display_order: 51
+nav_order: 51
+parent: Index
+layout: default
 ---
 
 ## regioninherits from [`component`](./component.html)

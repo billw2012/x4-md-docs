@@ -1,7 +1,10 @@
 ---
 title: build
 description: Properties of build
-display_order: 1
+display_order: 83
+nav_order: 83
+parent: Index
+layout: default
 ---
 
 ## build

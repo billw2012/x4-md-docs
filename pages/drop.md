@@ -1,7 +1,10 @@
 ---
 title: drop
 description: Properties of drop
-display_order: 1
+display_order: 65
+nav_order: 65
+parent: Index
+layout: default
 ---
 
 ## dropinherits from [`object`](./object.html)

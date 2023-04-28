@@ -1,6 +1,9 @@
 ---
-title: X4 mdscript auto-generated documentation
+title: Index
 layout: home
+has_children: true
 ---
 
-This documentation is generated from scriptproperties.xml. The only intention is to make it slightly more user-friendly.
+## Unofficial Auto-generated X4 MD Script Documentation
+
+This documentation is generated from scriptproperties.xml. The only intention is to make it slightly more user-friendly than an xml file.

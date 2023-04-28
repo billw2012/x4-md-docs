@@ -1,7 +1,10 @@
 ---
 title: rotation
 description: Properties of rotation
-display_order: 1
+display_order: 118
+nav_order: 118
+parent: Index
+layout: default
 ---
 
 ## rotation

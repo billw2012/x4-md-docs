@@ -1,7 +1,10 @@
 ---
 title: money
 description: Properties of money
-display_order: 1
+display_order: 131
+nav_order: 131
+parent: Index
+layout: default
 ---
 
 ## moneyinherits from [`numeric`](./numeric.html)

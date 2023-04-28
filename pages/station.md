@@ -1,7 +1,10 @@
 ---
 title: station
 description: Properties of station
-display_order: 1
+display_order: 79
+nav_order: 79
+parent: Index
+layout: default
 ---
 
 ## stationinherits from [`container`](./container.html)

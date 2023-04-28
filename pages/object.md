@@ -1,7 +1,10 @@
 ---
 title: object
 description: Properties of object
-display_order: 1
+display_order: 138
+nav_order: 138
+parent: Index
+layout: default
 ---
 
 ## objectinherits from [`destructible`](./destructible.html)

@@ -1,13 +1,10 @@
 ---
 title: weaponmode
 description: Properties of weaponmode
-display_order: 1
+display_order: 142
+nav_order: 142
+parent: Index
+layout: default
 ---
 
 ## weaponmodeinherits from [`enum`](./enum.html)
-
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-

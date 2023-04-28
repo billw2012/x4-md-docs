@@ -1,7 +1,10 @@
 ---
 title: nonplayer
 description: Properties of nonplayer
-display_order: 1
+display_order: 32
+nav_order: 32
+parent: Index
+layout: default
 ---
 
 ## nonplayerinherits from [`entity`](./entity.html)

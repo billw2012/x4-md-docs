@@ -1,7 +1,10 @@
 ---
 title: adsign
 description: Properties of adsign
-display_order: 1
+display_order: 39
+nav_order: 39
+parent: Index
+layout: default
 ---
 
 ## adsigninherits from [`destructible`](./destructible.html)

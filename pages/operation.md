@@ -1,7 +1,10 @@
 ---
 title: operation
 description: Properties of operation
-display_order: 1
+display_order: 6
+nav_order: 6
+parent: Index
+layout: default
 ---
 
 ## operation

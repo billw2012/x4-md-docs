@@ -1,7 +1,10 @@
 ---
 title: controlpanel
 description: Properties of controlpanel
-display_order: 1
+display_order: 107
+nav_order: 107
+parent: Index
+layout: default
 ---
 
 ## controlpanelinherits from [`destructible`](./destructible.html)

@@ -1,7 +1,10 @@
 ---
 title: warelist
 description: Properties of warelist
-display_order: 1
+display_order: 77
+nav_order: 77
+parent: Index
+layout: default
 ---
 
 ## warelist

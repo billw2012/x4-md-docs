@@ -1,7 +1,10 @@
 ---
 title: processingmodule
 description: Properties of processingmodule
-display_order: 1
+display_order: 52
+nav_order: 52
+parent: Index
+layout: default
 ---
 
 ## processingmoduleinherits from [`module`](./module.html)

@@ -1,7 +1,10 @@
 ---
 title: componentslot
 description: Properties of componentslot
-display_order: 1
+display_order: 12
+nav_order: 12
+parent: Index
+layout: default
 ---
 
 ## componentslot

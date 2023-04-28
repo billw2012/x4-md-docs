@@ -1,7 +1,10 @@
 ---
 title: highwayentrygate
 description: Properties of highwayentrygate
-display_order: 1
+display_order: 94
+nav_order: 94
+parent: Index
+layout: default
 ---
 
 ## highwayentrygateinherits from [`object`](./object.html)

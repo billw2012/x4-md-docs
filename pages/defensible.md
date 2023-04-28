@@ -1,7 +1,10 @@
 ---
 title: defensible
 description: Properties of defensible
-display_order: 1
+display_order: 116
+nav_order: 116
+parent: Index
+layout: default
 ---
 
 ## defensibleinherits from [`controllable`](./controllable.html)

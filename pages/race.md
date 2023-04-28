@@ -1,7 +1,10 @@
 ---
 title: race
 description: Properties of race
-display_order: 1
+display_order: 124
+nav_order: 124
+parent: Index
+layout: default
 ---
 
 ## raceinherits from [`dbdata`](./dbdata.html)

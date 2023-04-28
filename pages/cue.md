@@ -1,7 +1,10 @@
 ---
 title: cue
 description: Properties of cue
-display_order: 1
+display_order: 66
+nav_order: 66
+parent: Index
+layout: default
 ---
 
 ## cue

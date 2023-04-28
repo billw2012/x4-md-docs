@@ -1,7 +1,10 @@
 ---
 title: table
 description: Properties of table
-display_order: 1
+display_order: 42
+nav_order: 42
+parent: Index
+layout: default
 ---
 
 ## table

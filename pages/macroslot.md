@@ -1,7 +1,10 @@
 ---
 title: macroslot
 description: Properties of macroslot
-display_order: 1
+display_order: 144
+nav_order: 144
+parent: Index
+layout: default
 ---
 
 ## macroslot

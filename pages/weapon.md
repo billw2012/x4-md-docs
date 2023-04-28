@@ -1,7 +1,10 @@
 ---
 title: weapon
 description: Properties of weapon
-display_order: 1
+display_order: 2
+nav_order: 2
+parent: Index
+layout: default
 ---
 
 ## weaponinherits from [`destructible`](./destructible.html)

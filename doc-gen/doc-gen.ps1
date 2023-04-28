@@ -9,6 +9,9 @@ $datatypes = @{}
 # Recursive function to get all properties, including inherited ones
 function Get-InheritedProperties($node) {
     
+    $nodeName = $node.Attributes["name"].Value
+    Write-Host "$nodeName"
+
     if ($node.Attributes["type"]) {
         $parentName = $node.Attributes["type"].Value
         $parentNode = $xml.SelectSingleNode("//datatype[@name='$parentName']")
@@ -22,15 +25,12 @@ function Get-InheritedProperties($node) {
         $properties = New-Object System.Collections.Generic.List[PSObject]
     }
 
-    $nodeName = $node.Attributes["name"].Value
-
     foreach ($propertyNode in $node.SelectNodes("property")) {
         $propertyName = $propertyNode.Attributes["name"].Value
         $propertyType = $propertyNode.Attributes["type"].Value
         $propertyDescription = $propertyNode.Attributes["result"].Value
         $nodeOrigin = $node.Attributes["name"].Value
 
-        Write-Host "$nodeName.$propertyName : $propertyType"
         # $property = New-Object PSObject -Property @{
         #     Name = $propertyName
         #     Type = $propertyType
@@ -69,8 +69,17 @@ if (-not (Test-Path -Path ".\pages" -PathType Container)) {
     New-Item -ItemType Directory -Path ".\pages"
 }
 # Loop through each datatype and generate a markdown file
+$i = 1;
 foreach ($datatype in $datatypes.Keys) {
-    $markdown = "---`r`ntitle: $datatype`r`ndescription: Properties of $datatype`r`ndisplay_order: 1`r`n---`r`n`r`n"
+    $markdown = "---`r`n"
+    $markdown += "title: $datatype`r`n"
+    $markdown += "description: Properties of $datatype`r`n"
+    $markdown += "display_order: $i`r`n"
+    $markdown += "nav_order: $i`r`n"
+    $markdown += "parent: Index`r`n"
+    $i++
+    $markdown += "layout: default`r`n"
+    $markdown += "---`r`n`r`n"
     $markdown += "## $datatype"
     $type = $datatypes[$datatype].Type
     if ($type -and $datatypes.ContainsKey($type)) {
@@ -78,29 +87,32 @@ foreach ($datatype in $datatypes.Keys) {
     } elseif($type) {
         $markdown += "inherits from $type"
     }
-    $markdown += "`r`n`r`n### Properties`r`n`r`n"
-    $markdown += "| Name | Type | Description | Origin |`r`n"
-    $markdown += "|------|------|-------------|--------|`r`n"
+    
+    if($datatypes[$datatype].Properties) {
+        $markdown += "`r`n`r`n### Properties`r`n`r`n"
+        $markdown += "| Name | Type | Description | Origin |`r`n"
+        $markdown += "|------|------|-------------|--------|`r`n"
 
-    foreach ($property in $datatypes[$datatype].Properties) {
-        $propertyName = $property.Name
-        $propertyType = $property.Type
-        $propertyDescription = $property.Description
-        $nodeOrigin = $property.NodeName
+        foreach ($property in $datatypes[$datatype].Properties) {
+            $propertyName = $property.Name
+            $propertyType = $property.Type
+            $propertyDescription = $property.Description
+            $nodeOrigin = $property.NodeName
 
-        # If the property type is a reference type, add a link to the related page
-        if ($propertyType -and $datatypes.ContainsKey($propertyType)) {
-            $propertyType = "[``$propertyType``](./$propertyType.html)"
+            # If the property type is a reference type, add a link to the related page
+            if ($propertyType -and $datatypes.ContainsKey($propertyType)) {
+                $propertyType = "[``$propertyType``](./$propertyType.html)"
+            }
+
+            # If the property is inherited, add the parent datatype to the description
+            if ($nodeOrigin -ne $datatype) {
+                $originString = "[``$nodeOrigin``](./$nodeOrigin.html)"
+            } else {
+                $originString = "(this)"
+            }
+
+            $markdown += "| ``$propertyName`` | $propertyType | $propertyDescription | $originString |`r`n"
         }
-
-        # If the property is inherited, add the parent datatype to the description
-        if ($nodeOrigin -ne $datatype) {
-            $originString = "[``$nodeOrigin``](./$nodeOrigin.html)"
-        } else {
-            $originString = "(this)"
-        }
-
-        $markdown += "| ``$propertyName`` | $propertyType | $propertyDescription | $originString |`r`n"
     }
 
     # Save the markdown file

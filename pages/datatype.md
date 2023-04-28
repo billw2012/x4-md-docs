@@ -1,7 +1,10 @@
 ---
 title: datatype
 description: Properties of datatype
-display_order: 1
+display_order: 64
+nav_order: 64
+parent: Index
+layout: default
 ---
 
 ## datatypeinherits from [`kwenum`](./kwenum.html)

@@ -1,7 +1,10 @@
 ---
 title: connectionmodule
 description: Properties of connectionmodule
-display_order: 1
+display_order: 100
+nav_order: 100
+parent: Index
+layout: default
 ---
 
 ## connectionmoduleinherits from [`module`](./module.html)

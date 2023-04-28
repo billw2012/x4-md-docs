@@ -1,7 +1,10 @@
 ---
 title: shieldgenerator
 description: Properties of shieldgenerator
-display_order: 1
+display_order: 81
+nav_order: 81
+parent: Index
+layout: default
 ---
 
 ## shieldgeneratorinherits from [`destructible`](./destructible.html)

@@ -1,7 +1,10 @@
 ---
 title: constructionplanentrydata
 description: Properties of constructionplanentrydata
-display_order: 1
+display_order: 7
+nav_order: 7
+parent: Index
+layout: default
 ---
 
 ## constructionplanentrydata

@@ -1,7 +1,10 @@
 ---
 title: container
 description: Properties of container
-display_order: 1
+display_order: 48
+nav_order: 48
+parent: Index
+layout: default
 ---
 
 ## containerinherits from [`defensible`](./defensible.html)

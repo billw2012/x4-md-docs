@@ -2,6 +2,9 @@
 title: navcontext
 description: Properties of navcontext
 display_order: 1
+nav_order: 1
+parent: Index
+layout: default
 ---
 
 ## navcontextinherits from [`destructible`](./destructible.html)

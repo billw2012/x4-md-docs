@@ -1,7 +1,10 @@
 ---
 title: anomaly
 description: Properties of anomaly
-display_order: 1
+display_order: 103
+nav_order: 103
+parent: Index
+layout: default
 ---
 
 ## anomalyinherits from [`object`](./object.html)

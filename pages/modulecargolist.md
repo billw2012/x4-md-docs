@@ -1,7 +1,10 @@
 ---
 title: modulecargolist
 description: Properties of modulecargolist
-display_order: 1
+display_order: 91
+nav_order: 91
+parent: Index
+layout: default
 ---
 
 ## modulecargolistinherits from [`cargolist`](./cargolist.html)

@@ -1,7 +1,10 @@
 ---
 title: string
 description: Properties of string
-display_order: 1
+display_order: 92
+nav_order: 92
+parent: Index
+layout: default
 ---
 
 ## string

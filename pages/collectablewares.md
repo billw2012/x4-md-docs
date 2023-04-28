@@ -1,7 +1,10 @@
 ---
 title: collectablewares
 description: Properties of collectablewares
-display_order: 1
+display_order: 109
+nav_order: 109
+parent: Index
+layout: default
 ---
 
 ## collectablewaresinherits from [`collectable`](./collectable.html)

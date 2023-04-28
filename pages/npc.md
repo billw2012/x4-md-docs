@@ -1,7 +1,10 @@
 ---
 title: npc
 description: Properties of npc
-display_order: 1
+display_order: 69
+nav_order: 69
+parent: Index
+layout: default
 ---
 
 ## npcinherits from [`nonplayer`](./nonplayer.html)

@@ -1,7 +1,10 @@
 ---
 title: lockbox
 description: Properties of lockbox
-display_order: 1
+display_order: 24
+nav_order: 24
+parent: Index
+layout: default
 ---
 
 ## lockboxinherits from [`object`](./object.html)

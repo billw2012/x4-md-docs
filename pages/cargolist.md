@@ -1,7 +1,10 @@
 ---
 title: cargolist
 description: Properties of cargolist
-display_order: 1
+display_order: 152
+nav_order: 152
+parent: Index
+layout: default
 ---
 
 ## cargolistinherits from [`wareamountlist`](./wareamountlist.html)

@@ -1,7 +1,10 @@
 ---
 title: controlpost
 description: Properties of controlpost
-display_order: 1
+display_order: 111
+nav_order: 111
+parent: Index
+layout: default
 ---
 
 ## controlpostinherits from [`dbdata`](./dbdata.html)

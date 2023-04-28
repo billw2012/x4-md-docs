@@ -1,7 +1,10 @@
 ---
 title: loadout
 description: Properties of loadout
-display_order: 1
+display_order: 141
+nav_order: 141
+parent: Index
+layout: default
 ---
 
 ## loadout

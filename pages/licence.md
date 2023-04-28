@@ -1,7 +1,10 @@
 ---
 title: licence
 description: Properties of licence
-display_order: 1
+display_order: 113
+nav_order: 113
+parent: Index
+layout: default
 ---
 
 ## licence

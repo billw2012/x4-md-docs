@@ -1,7 +1,10 @@
 ---
 title: satellite
 description: Properties of satellite
-display_order: 1
+display_order: 80
+nav_order: 80
+parent: Index
+layout: default
 ---
 
 ## satelliteinherits from [`object`](./object.html)

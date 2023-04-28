@@ -1,7 +1,10 @@
 ---
 title: quadrant
 description: Properties of quadrant
-display_order: 1
+display_order: 139
+nav_order: 139
+parent: Index
+layout: default
 ---
 
 ## quadrantinherits from [`kwenum`](./kwenum.html)

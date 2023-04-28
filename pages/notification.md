@@ -1,7 +1,10 @@
 ---
 title: notification
 description: Properties of notification
-display_order: 1
+display_order: 75
+nav_order: 75
+parent: Index
+layout: default
 ---
 
 ## notificationinherits from [`dbdata`](./dbdata.html)

@@ -1,7 +1,10 @@
 ---
 title: component
 description: Properties of component
-display_order: 1
+display_order: 13
+nav_order: 13
+parent: Index
+layout: default
 ---
 
 ## component

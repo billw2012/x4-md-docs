@@ -1,7 +1,10 @@
 ---
 title: dockarea
 description: Properties of dockarea
-display_order: 1
+display_order: 99
+nav_order: 99
+parent: Index
+layout: default
 ---
 
 ## dockareainherits from [`walkablemodule`](./walkablemodule.html)

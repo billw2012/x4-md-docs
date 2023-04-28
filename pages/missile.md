@@ -1,7 +1,10 @@
 ---
 title: missile
 description: Properties of missile
-display_order: 1
+display_order: 28
+nav_order: 28
+parent: Index
+layout: default
 ---
 
 ## missileinherits from [`explosive`](./explosive.html)

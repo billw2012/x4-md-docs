@@ -1,13 +1,10 @@
 ---
 title: tag
 description: Properties of tag
-display_order: 1
+display_order: 102
+nav_order: 102
+parent: Index
+layout: default
 ---
 
 ## tag
-
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-

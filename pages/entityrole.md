@@ -1,7 +1,10 @@
 ---
 title: entityrole
 description: Properties of entityrole
-display_order: 1
+display_order: 49
+nav_order: 49
+parent: Index
+layout: default
 ---
 
 ## entityroleinherits from [`dbdata`](./dbdata.html)

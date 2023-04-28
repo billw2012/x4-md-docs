@@ -1,7 +1,10 @@
 ---
 title: relationchangereason
 description: Properties of relationchangereason
-display_order: 1
+display_order: 104
+nav_order: 104
+parent: Index
+layout: default
 ---
 
 ## relationchangereasoninherits from [`enum`](./enum.html)

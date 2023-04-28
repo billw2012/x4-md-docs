@@ -1,7 +1,10 @@
 ---
 title: ship
 description: Properties of ship
-display_order: 1
+display_order: 36
+nav_order: 36
+parent: Index
+layout: default
 ---
 
 ## shipinherits from [`container`](./container.html)

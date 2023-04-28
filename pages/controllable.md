@@ -1,7 +1,10 @@
 ---
 title: controllable
 description: Properties of controllable
-display_order: 1
+display_order: 117
+nav_order: 117
+parent: Index
+layout: default
 ---
 
 ## controllableinherits from [`object`](./object.html)

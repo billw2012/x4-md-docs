@@ -1,7 +1,10 @@
 ---
 title: room
 description: Properties of room
-display_order: 1
+display_order: 87
+nav_order: 87
+parent: Index
+layout: default
 ---
 
 ## roominherits from [`component`](./component.html)

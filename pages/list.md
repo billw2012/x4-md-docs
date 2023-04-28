@@ -1,7 +1,10 @@
 ---
 title: list
 description: Properties of list
-display_order: 1
+display_order: 22
+nav_order: 22
+parent: Index
+layout: default
 ---
 
 ## list

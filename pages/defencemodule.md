@@ -1,7 +1,10 @@
 ---
 title: defencemodule
 description: Properties of defencemodule
-display_order: 1
+display_order: 101
+nav_order: 101
+parent: Index
+layout: default
 ---
 
 ## defencemoduleinherits from [`module`](./module.html)

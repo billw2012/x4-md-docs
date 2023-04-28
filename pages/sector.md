@@ -1,7 +1,10 @@
 ---
 title: sector
 description: Properties of sector
-display_order: 1
+display_order: 60
+nav_order: 60
+parent: Index
+layout: default
 ---
 
 ## sectorinherits from [`space`](./space.html)

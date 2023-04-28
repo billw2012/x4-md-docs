@@ -1,7 +1,10 @@
 ---
 title: turret
 description: Properties of turret
-display_order: 1
+display_order: 119
+nav_order: 119
+parent: Index
+layout: default
 ---
 
 ## turretinherits from [`weapon`](./weapon.html)

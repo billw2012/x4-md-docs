@@ -1,7 +1,10 @@
 ---
 title: collectable
 description: Properties of collectable
-display_order: 1
+display_order: 126
+nav_order: 126
+parent: Index
+layout: default
 ---
 
 ## collectableinherits from [`drop`](./drop.html)

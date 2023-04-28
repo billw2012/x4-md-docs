@@ -1,7 +1,10 @@
 ---
 title: highway
 description: Properties of highway
-display_order: 1
+display_order: 33
+nav_order: 33
+parent: Index
+layout: default
 ---
 
 ## highwayinherits from [`zone`](./zone.html)

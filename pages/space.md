@@ -1,7 +1,10 @@
 ---
 title: space
 description: Properties of space
-display_order: 1
+display_order: 43
+nav_order: 43
+parent: Index
+layout: default
 ---
 
 ## spaceinherits from [`component`](./component.html)

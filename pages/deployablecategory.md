@@ -1,7 +1,10 @@
 ---
 title: deployablecategory
 description: Properties of deployablecategory
-display_order: 1
+display_order: 76
+nav_order: 76
+parent: Index
+layout: default
 ---
 
 ## deployablecategoryinherits from [`enum`](./enum.html)

@@ -1,7 +1,10 @@
 ---
 title: bullet
 description: Properties of bullet
-display_order: 1
+display_order: 137
+nav_order: 137
+parent: Index
+layout: default
 ---
 
 ## bulletinherits from [`component`](./component.html)

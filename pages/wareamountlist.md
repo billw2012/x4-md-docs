@@ -1,7 +1,10 @@
 ---
 title: wareamountlist
 description: Properties of wareamountlist
-display_order: 1
+display_order: 57
+nav_order: 57
+parent: Index
+layout: default
 ---
 
 ## wareamountlist

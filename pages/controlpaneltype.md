@@ -1,7 +1,10 @@
 ---
 title: controlpaneltype
 description: Properties of controlpaneltype
-display_order: 1
+display_order: 93
+nav_order: 93
+parent: Index
+layout: default
 ---
 
 ## controlpaneltypeinherits from [`enum`](./enum.html)

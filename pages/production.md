@@ -1,7 +1,10 @@
 ---
 title: production
 description: Properties of production
-display_order: 1
+display_order: 148
+nav_order: 148
+parent: Index
+layout: default
 ---
 
 ## productioninherits from [`module`](./module.html)

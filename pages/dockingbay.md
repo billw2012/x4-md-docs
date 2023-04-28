@@ -1,7 +1,10 @@
 ---
 title: dockingbay
 description: Properties of dockingbay
-display_order: 1
+display_order: 46
+nav_order: 46
+parent: Index
+layout: default
 ---
 
 ## dockingbayinherits from [`room`](./room.html)

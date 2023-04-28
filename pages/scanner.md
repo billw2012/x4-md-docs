@@ -1,7 +1,10 @@
 ---
 title: scanner
 description: Properties of scanner
-display_order: 1
+display_order: 110
+nav_order: 110
+parent: Index
+layout: default
 ---
 
 ## scannerinherits from [`destructible`](./destructible.html)

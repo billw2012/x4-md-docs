@@ -1,7 +1,10 @@
 ---
 title: constructionsequence
 description: Properties of constructionsequence
-display_order: 1
+display_order: 149
+nav_order: 149
+parent: Index
+layout: default
 ---
 
 ## constructionsequence

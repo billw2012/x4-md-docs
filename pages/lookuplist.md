@@ -1,7 +1,10 @@
 ---
 title: lookuplist
 description: Properties of lookuplist
-display_order: 1
+display_order: 16
+nav_order: 16
+parent: Index
+layout: default
 ---
 
 ## lookuplist

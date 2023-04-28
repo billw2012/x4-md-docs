@@ -1,7 +1,10 @@
 ---
 title: macro
 description: Properties of macro
-display_order: 1
+display_order: 68
+nav_order: 68
+parent: Index
+layout: default
 ---
 
 ## macroinherits from [`dbdata`](./dbdata.html)

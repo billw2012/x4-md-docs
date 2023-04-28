@@ -1,7 +1,10 @@
 ---
 title: resourceprobe
 description: Properties of resourceprobe
-display_order: 1
+display_order: 11
+nav_order: 11
+parent: Index
+layout: default
 ---
 
 ## resourceprobeinherits from [`object`](./object.html)

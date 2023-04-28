@@ -1,7 +1,10 @@
 ---
 title: waretransport
 description: Properties of waretransport
-display_order: 1
+display_order: 50
+nav_order: 50
+parent: Index
+layout: default
 ---
 
 ## waretransportinherits from [`enum`](./enum.html)

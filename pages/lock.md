@@ -1,7 +1,10 @@
 ---
 title: lock
 description: Properties of lock
-display_order: 1
+display_order: 132
+nav_order: 132
+parent: Index
+layout: default
 ---
 
 ## lockinherits from [`destructible`](./destructible.html)

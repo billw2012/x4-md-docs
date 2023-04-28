@@ -1,7 +1,10 @@
 ---
 title: module
 description: Properties of module
-display_order: 1
+display_order: 88
+nav_order: 88
+parent: Index
+layout: default
 ---
 
 ## moduleinherits from [`destructible`](./destructible.html)

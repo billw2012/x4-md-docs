@@ -1,7 +1,10 @@
 ---
 title: gate
 description: Properties of gate
-display_order: 1
+display_order: 54
+nav_order: 54
+parent: Index
+layout: default
 ---
 
 ## gateinherits from [`object`](./object.html)

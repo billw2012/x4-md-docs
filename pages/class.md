@@ -1,7 +1,10 @@
 ---
 title: class
 description: Properties of class
-display_order: 1
+display_order: 136
+nav_order: 136
+parent: Index
+layout: default
 ---
 
 ## classinherits from [`enum`](./enum.html)

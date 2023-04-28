@@ -1,7 +1,10 @@
 ---
 title: signalleak
 description: Properties of signalleak
-display_order: 1
+display_order: 63
+nav_order: 63
+parent: Index
+layout: default
 ---
 
 ## signalleakinherits from [`component`](./component.html)

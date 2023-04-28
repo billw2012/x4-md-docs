@@ -1,7 +1,10 @@
 ---
 title: habitationmodule
 description: Properties of habitationmodule
-display_order: 1
+display_order: 38
+nav_order: 38
+parent: Index
+layout: default
 ---
 
 ## habitationmoduleinherits from [`module`](./module.html)

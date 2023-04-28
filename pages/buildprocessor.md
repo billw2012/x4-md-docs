@@ -1,7 +1,10 @@
 ---
 title: buildprocessor
 description: Properties of buildprocessor
-display_order: 1
+display_order: 26
+nav_order: 26
+parent: Index
+layout: default
 ---
 
 ## buildprocessorinherits from [`component`](./component.html)

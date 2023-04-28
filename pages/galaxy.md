@@ -1,7 +1,10 @@
 ---
 title: galaxy
 description: Properties of galaxy
-display_order: 1
+display_order: 78
+nav_order: 78
+parent: Index
+layout: default
 ---
 
 ## galaxyinherits from [`space`](./space.html)
