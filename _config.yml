@@ -1,12 +1,12 @@
 title: X4 mdscript docs
 description: Unofficial X4 mdscript auto-generated documentation
-remote_theme: pmarsceill/just-the-docs@v0.2.9
-
-url: https://billw2012.github.io/x4-md-docs
+theme: just-the-docs
 
 # Theme settings:
 color_scheme: "dark"
 logo: ''
+
+url: https://billw2012.github.io/x4-md-docs
 
 # aux_links:
 #   Template Repository: https://github.com/billw2012/x4-md-docs
