@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`unlock`](./unlock.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -21,5 +24,6 @@ layout: default
 | `maxrelation` | [`float`](./float.html) | Maximum relation with owner for this unlock to be triggered |
 | `secrecylevel.min` | [`integer`](./integer.html) | Minimum secrecy level of component for this unlock to be triggered |
 | `secrecylevel.max` | [`integer`](./integer.html) | Maximum secrecy level of component for this unlock to be triggered |
+
 
 

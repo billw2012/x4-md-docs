@@ -8,12 +8,17 @@ layout: default
 ---
 
 ##  [`galaxy`](./galaxy.html)  [`space`](./space.html)  [`component`](./component.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `yieldthresholds` | [`wareamountlist`](./wareamountlist.html) | Amounts of mineable wares that meet valuethreshold set in parameters.xml |
 | `representatives` | [`list`](./list.html) | List of all faction representatives in the galaxy |
+
 ## Properties inherited from [`space`](./space.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `economy` | [`float`](./float.html) | Economy value for this space |
@@ -27,7 +32,9 @@ layout: default
 | `alllocationtags` | [`list`](./list.html) | List of tags relevant to this space location and all parent spaces |
 | `accesslicence` | [`string`](./string.html) | Licence type required for access to this space (null if no restriction) |
 | `accessrestricted` | [`boolean`](./boolean.html) | Access to this space restricted (for player assets) |
+
 ## Properties inherited from [`component`](./component.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the component exists in the game graph |
@@ -173,5 +180,6 @@ layout: default
 | `phase.scheduled.transitions` | [`list`](./list.html) | The phases that can be started after the scheduled phase has activated |
 | `phase.scheduled.propagation.speed` | [`float`](./float.html) | The propagation speed of the scheduled phase, in m/s (0 if there is none) |
 | `phase.scheduled.propagation.arrivaltime.{$component}` | [`time`](./time.html) | The time at which the propagation of the scheduled phase is going to reach the specified component (-1 if there is no active propagation) |
+
 
 

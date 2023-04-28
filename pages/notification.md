@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`notification`](./notification.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -16,5 +19,6 @@ layout: default
 | `rawname` | [`string`](./string.html) | Raw name of the notification type, as text entry reference |
 | `description` | [`string`](./string.html) | Description of the notification type |
 | `active` | [`boolean`](./boolean.html) | Are notifications of this type enabled? |
+
 
 

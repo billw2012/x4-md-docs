@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`controlpost`](./controlpost.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `name` | [`string`](./string.html) | Default name of the control post |
@@ -21,5 +24,6 @@ layout: default
 | `skillrelevance.{$skilltype}` | [`integer`](./integer.html) | Contribution of the supplied skill to the entity's combined skill in percent, see $entity.combinedskill |
 | `skillrelevance.<skillname>` | [`integer`](./integer.html) | Shortcut for skillrelevance.{skilltype.<skillname>} |
 | `isindependent` | [`boolean`](./boolean.html) | whether ownership of person assigned to this post is independent of ownership of object to which they are assigned |
+
 
 

@@ -8,9 +8,13 @@ layout: default
 ---
 
 ##  [`quadrant`](./quadrant.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `inverse` | [`quadrant`](./quadrant.html) | the opposite direction of the quadrant |
+
 
 

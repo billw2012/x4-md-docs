@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`licence`](./licence.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff licence exists |
@@ -21,5 +24,6 @@ layout: default
 | `issellable` | [`boolean`](./boolean.html) | true iff licence is sellable from traders |
 | `faction` | [`faction`](./faction.html) | Faction |
 | `type` | [`string`](./string.html) | Licence type |
+
 
 

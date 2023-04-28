@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`ware`](./ware.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -69,5 +72,6 @@ layout: default
 | `research.requiredprecursors` | [`warelist`](./warelist.html) | Research precursors required to unlock access to ware |
 | `research.resources` | [`wareamountlist`](./wareamountlist.html) | Resources needed to process the research |
 | `isprocessed` | [`boolean`](./boolean.html) | true iff ware is processed, e.g. raw scrap |
+
 
 

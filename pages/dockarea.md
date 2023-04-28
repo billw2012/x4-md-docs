@@ -8,12 +8,17 @@ layout: default
 ---
 
 ##  [`dockarea`](./dockarea.html)  [`walkablemodule`](./walkablemodule.html)  [`destructible`](./destructible.html)  [`component`](./component.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `isventuremodule` | [`boolean`](./boolean.html) | true if this module is for use with venture platforms |
 | `ventureplatform` | [`ventureplatform`](./ventureplatform.html) | The venture platform with which this docking bay is associated |
+
 ## Properties inherited from [`walkablemodule`](./walkablemodule.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `hasentrypos` | [`boolean`](./boolean.html) | true iff position for dock area entry is defined |
@@ -21,7 +26,9 @@ layout: default
 | `hasexitpos` | [`boolean`](./boolean.html) | true iff position for dock area exit is defined |
 | `exitpos` | [`position`](./position.html) | Dock area exit position |
 | `numdocks.{$docksize}` | [`integer`](./integer.html) | Number of connected dockingbays supporting the specified docksize |
+
 ## Properties inherited from [`destructible`](./destructible.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `isfunctional` | [`boolean`](./boolean.html) | true iff the object exists in the game graph and is functional |
@@ -45,7 +52,9 @@ layout: default
 | `makerraces` | [`list`](./list.html) | Maker race list |
 | `primarypurpose` | [`purpose`](./purpose.html) | The object's primary purpose |
 | `threatscore` | [`float`](./float.html) | The object's threat score, either defined by its macro or by defaults based on its primary purpose |
+
 ## Properties inherited from [`component`](./component.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the component exists in the game graph |
@@ -191,5 +200,6 @@ layout: default
 | `phase.scheduled.transitions` | [`list`](./list.html) | The phases that can be started after the scheduled phase has activated |
 | `phase.scheduled.propagation.speed` | [`float`](./float.html) | The propagation speed of the scheduled phase, in m/s (0 if there is none) |
 | `phase.scheduled.propagation.arrivaltime.{$component}` | [`time`](./time.html) | The time at which the propagation of the scheduled phase is going to reach the specified component (-1 if there is no active propagation) |
+
 
 

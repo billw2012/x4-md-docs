@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`cue`](./cue.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff cue exists |
@@ -30,5 +33,6 @@ layout: default
 | `actor` | [`nonplayer`](./nonplayer.html) | Last associated actor, or null |
 | `actors` | [`list`](./list.html) | List of all associated actors |
 | `$<variable>` | `` | Value of cue variable |
+
 
 

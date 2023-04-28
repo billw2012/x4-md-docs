@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`order`](./order.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff order exists |
@@ -32,5 +35,6 @@ layout: default
 | `operation` | [`operation`](./operation.html) | Operation that is associated with this order, or null |
 | `requiredskill` | [`integer`](./integer.html) | Required combined skill of control entity to execute order |
 | `$<param>` | `` | Value of order parameter |
+
 
 

@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`componentslot`](./componentslot.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `component` | [`component`](./component.html) | The component part of the componentslot |
@@ -28,5 +31,6 @@ layout: default
 | `distanceto.{$component}` | [`length`](./length.html) | Distance from this componentslot's offset to $component |
 | `distanceto.{$componentslot}` | [`length`](./length.html) | Distance from this componentslot's offset to the component and connection offset of $componentslot |
 | `distanceto.[$component, $position]` | [`length`](./length.html) | Distance from this componentslot's offset to the $position relative to $component |
+
 
 

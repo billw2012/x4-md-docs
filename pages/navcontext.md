@@ -8,13 +8,18 @@ layout: default
 ---
 
 ##  [`navcontext`](./navcontext.html)  [`destructible`](./destructible.html)  [`component`](./component.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `ispersistent` | [`boolean`](./boolean.html) | Is the navcontext is set to be persistent? If true, the interior can exist in low attentions. |
 | `isprivate` | [`boolean`](./boolean.html) | Is the navcontext is set to private? If true, contained NPC slots can only be found by directly querying the contained rooms |
 | `rooms` | [`list`](./list.html) | Contained rooms of the navcontext |
+
 ## Properties inherited from [`destructible`](./destructible.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `isfunctional` | [`boolean`](./boolean.html) | true iff the object exists in the game graph and is functional |
@@ -38,7 +43,9 @@ layout: default
 | `makerraces` | [`list`](./list.html) | Maker race list |
 | `primarypurpose` | [`purpose`](./purpose.html) | The object's primary purpose |
 | `threatscore` | [`float`](./float.html) | The object's threat score, either defined by its macro or by defaults based on its primary purpose |
+
 ## Properties inherited from [`component`](./component.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the component exists in the game graph |
@@ -184,5 +191,6 @@ layout: default
 | `phase.scheduled.transitions` | [`list`](./list.html) | The phases that can be started after the scheduled phase has activated |
 | `phase.scheduled.propagation.speed` | [`float`](./float.html) | The propagation speed of the scheduled phase, in m/s (0 if there is none) |
 | `phase.scheduled.propagation.arrivaltime.{$component}` | [`time`](./time.html) | The time at which the propagation of the scheduled phase is going to reach the specified component (-1 if there is no active propagation) |
+
 
 

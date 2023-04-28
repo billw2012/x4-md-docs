@@ -112,9 +112,9 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
 
             # Dump the properties for the current type
             if($currType -ne $datatype) {
-                $propertyTable += "## Properties inherited from $currTypeMarkdown`r`n"
+                $propertyTable += "`r`n## Properties inherited from $currTypeMarkdown`r`n`r`n"
             } else {
-                $propertyTable += "## Properties`r`n"
+                $propertyTable += "`r`n## Properties`r`n`r`n"
             }
 
             $propertyTable += "| Name | Type | Description |`r`n"
@@ -137,9 +137,9 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
         }
 
         $markdown += "## $inheritance"
-        $markdown += "`r`n"
+        $markdown += "`r`n`r`n"
         $markdown += $propertyTable
-        $markdown += "`r`n"
+        $markdown += "`r`n`r`n"
     }
 
     # Save the markdown file

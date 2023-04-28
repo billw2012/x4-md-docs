@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`trade`](./trade.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff trade exists |
@@ -60,5 +63,6 @@ layout: default
 | `restriction.factions` | [`list`](./list.html) | List of factions that are allowed to perform the trade (empty if unrestricted, modified by restriction.inverted) |
 | `restriction.inverted` | [`boolean`](./boolean.html) | true iff the faction restriction is inverted and the trade is available to everyone except the restriction.factions |
 | `cantradewith.{$container}` | [`boolean`](./boolean.html) | true iff the supplied container is allowed to be involved with this trade |
+
 
 

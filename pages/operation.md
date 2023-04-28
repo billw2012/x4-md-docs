@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`operation`](./operation.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the operation exists |
@@ -31,5 +34,6 @@ layout: default
 | `boardingphase` | [`boardingphase`](./boardingphase.html) | current phase of the boarding operation (only valid for boarding operations) |
 | `boardingapproachthreshold` | [`integer`](./integer.html) | threshold value of the boarding operation in regards to having the boarding pods launch and approach the target (only valid for boarding operations) |
 | `boardinginsertionthreshold` | [`integer`](./integer.html) | threshold value of the boarding operation in regards to attempting to insert marines into the target (only valid for boarding operations) |
+
 
 

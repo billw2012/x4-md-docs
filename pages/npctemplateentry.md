@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`npctemplateentry`](./npctemplateentry.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff NPC template exists |
@@ -33,5 +36,6 @@ layout: default
 | `potentialskill.{$entityrole}` | [`integer`](./integer.html) | Potential combined skill value between 0 and 100, based on weighted skills that are relevant for the role |
 | `potentialskill.{$controlpost}` | [`integer`](./integer.html) | Potential combined skill value between 0 and 100, based on weighted skills that are relevant for the control post |
 | `tradesvisible` | [`boolean`](./boolean.html) | true iff the NPC's trades are visible to the player |
+
 
 

@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`sector`](./sector.html)  [`space`](./space.html)  [`component`](./component.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `averagedistancetolockbox` | [`length`](./length.html) | Average distance to a lockbox from any point in this sector. (-1m if not possible to get a lockbox in this sector) |
@@ -28,7 +31,9 @@ layout: default
 | `typicallockboxmacro` | [`macro`](./macro.html) | Macro of a lockbox typically found in this sector |
 | `coreposition` | [`position`](./position.html) | The center position of the area considered the core of the sector, in sector coordinates |
 | `coresize` | [`length`](./length.html) | The diameter of the area considered the core of the sector |
+
 ## Properties inherited from [`space`](./space.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `economy` | [`float`](./float.html) | Economy value for this space |
@@ -42,7 +47,9 @@ layout: default
 | `alllocationtags` | [`list`](./list.html) | List of tags relevant to this space location and all parent spaces |
 | `accesslicence` | [`string`](./string.html) | Licence type required for access to this space (null if no restriction) |
 | `accessrestricted` | [`boolean`](./boolean.html) | Access to this space restricted (for player assets) |
+
 ## Properties inherited from [`component`](./component.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the component exists in the game graph |
@@ -188,5 +195,6 @@ layout: default
 | `phase.scheduled.transitions` | [`list`](./list.html) | The phases that can be started after the scheduled phase has activated |
 | `phase.scheduled.propagation.speed` | [`float`](./float.html) | The propagation speed of the scheduled phase, in m/s (0 if there is none) |
 | `phase.scheduled.propagation.arrivaltime.{$component}` | [`time`](./time.html) | The time at which the propagation of the scheduled phase is going to reach the specified component (-1 if there is no active propagation) |
+
 
 

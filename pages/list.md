@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`list`](./list.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `count` | [`integer`](./integer.html) | Number of elements in the list |
@@ -21,5 +24,6 @@ layout: default
 | `min` | [`numeric`](./numeric.html) | The minimum value in the list (all elements must be numeric), or null if the list is empty |
 | `max` | [`numeric`](./numeric.html) | The maximum value in the list (all elements must be numeric), or null if the list is empty |
 | `average` | [`numeric`](./numeric.html) | The average of all list elements (all elements must be numeric), or null if the list is empty |
+
 
 

@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`defensible`](./defensible.html)  [`controllable`](./controllable.html)  [`object`](./object.html)  [`destructible`](./destructible.html)  [`component`](./component.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `iscapturable` | [`boolean`](./boolean.html) | Can this defensible be captured, either via signalleak (S sized) or via boarding (M+ sized). Additionally, for S-ships the pilot will not eject if it is not capturable |
@@ -197,7 +200,9 @@ layout: default
 | `isdismantlingassignedobject` | [`boolean`](./boolean.html) | Is this object currently dismantling the assigned wreck |
 | `claimedsalvage` | [`object`](./object.html) | The object claimed as either a dismantle or tow target (other defensibles may also have claims) |
 | `haswaveprotection` | [`boolean`](./boolean.html) | Is this object protected against the wave (taking current cargo into account if also a container) |
+
 ## Properties inherited from [`controllable`](./controllable.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `pilot` | [`entity`](./entity.html) | Pilot entity |
@@ -315,7 +320,9 @@ layout: default
 | `controlposition.{$controlposition}.entity` | [`entity`](./entity.html) | Entity currently working at the specified control position (where the room is virtual and does not have control positions) |
 | `controlpositions.list` | [`list`](./list.html) | List of component slots which are control positions |
 | `combinedskill` | [`integer`](./integer.html) | Effective combined skill value (from 0 to 100) of this controllable, taking entity and crew skill, where applicable, into account. |
+
 ## Properties inherited from [`object`](./object.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `cansee.{$component}` | [`boolean`](./boolean.html) | true if target component is detected by gravidar of this object |
@@ -410,7 +417,9 @@ layout: default
 | `salvageclaimants` | [`list`](./list.html) | List of objects which have made a dismantle or tow claim on this object |
 | `isdatavault` | [`boolean`](./boolean.html) | true iff the object is a Data Vault |
 | `islandmark` | [`boolean`](./boolean.html) | true iff the object is a landmark |
+
 ## Properties inherited from [`destructible`](./destructible.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `isfunctional` | [`boolean`](./boolean.html) | true iff the object exists in the game graph and is functional |
@@ -434,7 +443,9 @@ layout: default
 | `makerraces` | [`list`](./list.html) | Maker race list |
 | `primarypurpose` | [`purpose`](./purpose.html) | The object's primary purpose |
 | `threatscore` | [`float`](./float.html) | The object's threat score, either defined by its macro or by defaults based on its primary purpose |
+
 ## Properties inherited from [`component`](./component.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the component exists in the game graph |
@@ -580,5 +591,6 @@ layout: default
 | `phase.scheduled.transitions` | [`list`](./list.html) | The phases that can be started after the scheduled phase has activated |
 | `phase.scheduled.propagation.speed` | [`float`](./float.html) | The propagation speed of the scheduled phase, in m/s (0 if there is none) |
 | `phase.scheduled.propagation.arrivaltime.{$component}` | [`time`](./time.html) | The time at which the propagation of the scheduled phase is going to reach the specified component (-1 if there is no active propagation) |
+
 
 

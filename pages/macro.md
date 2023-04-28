@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`macro`](./macro.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID (internal macro name). But instead of comparing macro IDs, it is recommended to use ismacro.{$macro} |
@@ -84,5 +87,6 @@ layout: default
 | `explosiondamage.hullnoshield` | [`hitpoints`](./hitpoints.html) | Total potential damage this macro can do if it explodes. Damage is dealt only to hull and only if no shields are present. (explosive macros only e.g. missiles) |
 | `isguided` | [`boolean`](./boolean.html) | true if this explosive is guided. (explosive macros only e.g. missiles) |
 | `countermeasureresistance.{$macro}` | [`float`](./float.html) | percentage change of this explosive macro resisting the effects of the provided countermeasure macro (explosive macros only e.g. missiles) |
+
 
 

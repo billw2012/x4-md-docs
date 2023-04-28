@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`race`](./race.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -18,5 +21,6 @@ layout: default
 | `height` | [`float`](./float.html) | Default height for characters of this race |
 | `facecutscene` | [`string`](./string.html) | Face cutscene key for this race, or null if no default is defined |
 | `workforce.resources` | [`wareamountlist`](./wareamountlist.html) | Resoures needed for the workforce of this race to prosper |
+
 
 

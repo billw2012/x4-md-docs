@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`entityrole`](./entityrole.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `name` | [`string`](./string.html) | Default name of the entity role |
@@ -25,5 +28,6 @@ layout: default
 | `tier.{$level}.rawname` | [`string`](./string.html) | Raw name of the tier at this level, as text entry reference |
 | `tier.{$level}.level` | [`integer`](./integer.html) | Lowerbound level value of the tier at the provided level |
 | `icon` | [`string`](./string.html) | Icon ID of the entity role |
+
 
 

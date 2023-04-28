@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`entity`](./entity.html)  [`component`](./component.html) 
+
+
 ## Properties inherited from [`entity`](./entity.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `customhandler` | [`boolean`](./boolean.html) | true iff the entity has a custom conversation handler |
@@ -73,7 +76,9 @@ layout: default
 | `isindependent` | [`boolean`](./boolean.html) | whether ownership of this entity is independent of ownership of object to which they are assigned (always true if entity has no control post or role) |
 | `tradesvisible` | [`boolean`](./boolean.html) | true iff the entity's trades are visible to the player |
 | `facecutscene` | [`string`](./string.html) | Face cutscene key for this entity, or null if no default is defined |
+
 ## Properties inherited from [`component`](./component.html)
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the component exists in the game graph |
@@ -219,5 +224,6 @@ layout: default
 | `phase.scheduled.transitions` | [`list`](./list.html) | The phases that can be started after the scheduled phase has activated |
 | `phase.scheduled.propagation.speed` | [`float`](./float.html) | The propagation speed of the scheduled phase, in m/s (0 if there is none) |
 | `phase.scheduled.propagation.arrivaltime.{$component}` | [`time`](./time.html) | The time at which the propagation of the scheduled phase is going to reach the specified component (-1 if there is no active propagation) |
+
 
 

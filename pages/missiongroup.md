@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`missiongroup`](./missiongroup.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -17,5 +20,6 @@ layout: default
 | `description` | [`string`](./string.html) | Description of the mission group |
 | `faction` | [`faction`](./faction.html) | Primary faction |
 | `enemy` | [`faction`](./faction.html) | Enemy faction |
+
 
 

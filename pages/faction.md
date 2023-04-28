@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`faction`](./faction.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -61,5 +64,6 @@ layout: default
 | `representative` | [`entity`](./entity.html) | Given faction representative or null |
 | `headquarters` | [`station`](./station.html) | Given faction's headquarters station or null |
 | `icon` | [`string`](./string.html) | Returns the name of the active faction icon as it is called in the IconLibrary |
+
 
 

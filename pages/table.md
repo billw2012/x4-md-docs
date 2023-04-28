@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`table`](./table.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `clone` | [`table`](./table.html) | A shallow copy of the table |
@@ -19,5 +22,6 @@ layout: default
 | `keys.{$numeric}` | `` | The $numeric-th key in the table (1-based), note that this lookup can be inefficient and order can change between savegames |
 | `{$key}` | `` | Value associated with the table key (type is ignored for numeric keys, e.g. 50s and 50m are treated as the same key) |
 | `$<keyname>` | `` | Value associated with the table key (shortcut for {'$<keyname>'}, all string keys must begin with '$') |
+
 
 

@@ -8,7 +8,10 @@ layout: default
 ---
 
 ##  [`build`](./build.html) 
+
+
 ## Properties
+
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff build order exists |
@@ -39,5 +42,6 @@ layout: default
 | `zone` | [`zone`](./zone.html) | space in which the build will take place |
 | `position` | [`position`](./position.html) | position of the build in 'zone' |
 | `rotation` | [`rotation`](./rotation.html) | rotation of the build in 'zone' |
+
 
 
