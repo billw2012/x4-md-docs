@@ -10,7 +10,11 @@ layout: default
 ##  [`vector`](./vector.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`vector`](./vector.html) | vector |  |
+|------|------|-------------|
+| `x` | [`length`](./length.html) | X coordinate |
+| `y` | [`length`](./length.html) | Y coordinate |
+| `z` | [`length`](./length.html) | Z coordinate |
+| `length` | [`length`](./length.html) | Estimated length of the vector |
+| `distanceto.{$vector}` | [`length`](./length.html) | Distance to the provided vector |
 
 

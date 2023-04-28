@@ -118,9 +118,9 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
             }
 
             $propertyTable += "| Name | Type | Description |`r`n"
-            $propertyTable += "|:-----|:-----|:------------|`r`n"
+            $propertyTable += "|------|------|-------------|`r`n"
 
-            foreach ($property in $datatypes[$datatype].PropertyGroups) {
+            foreach ($property in $propertyGroup.Properties) {
                 $propertyName = $property.Name
                 $propertyType = $property.Type
                 $propertyDescription = $property.Description
@@ -132,7 +132,7 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
                     $propertyTypeMarkDown = "``$propertyType``"
                 }
 
-                $propertyTable += "| $propertyTypeMarkDown | $propertyType | $propertyDescription |`r`n"
+                $propertyTable += "| ``$propertyName`` | $propertyTypeMarkDown | $propertyDescription |`r`n"
             }
         }
 

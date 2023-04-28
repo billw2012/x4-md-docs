@@ -10,7 +10,7 @@ layout: default
 ##  [`relationchangereason`](./relationchangereason.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`relationchangereason`](./relationchangereason.html) | relationchangereason |  |
+|------|------|-------------|
+| `name` | [`string`](./string.html) | Name of the relation change reason |
 
 

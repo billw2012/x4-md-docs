@@ -10,7 +10,7 @@ layout: default
 ##  [`waretransport`](./waretransport.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`waretransport`](./waretransport.html) | waretransport |  |
+|------|------|-------------|
+| `name` | [`string`](./string.html) | Name of ware transport type |
 
 

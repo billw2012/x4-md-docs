@@ -10,7 +10,9 @@ layout: default
 ##  [`deployablecategory`](./deployablecategory.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`deployablecategory`](./deployablecategory.html) | deployablecategory |  |
+|------|------|-------------|
+| `name` | [`string`](./string.html) | Name of the deployable category |
+| `maxmk` | [`integer`](./integer.html) | Maximum mk for this deployable category |
+| `mk.{$i}.list` | [`list`](./list.html) | List of deployable macros of the category and mk |
 
 

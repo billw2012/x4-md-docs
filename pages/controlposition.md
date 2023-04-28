@@ -10,7 +10,7 @@ layout: default
 ##  [`controlposition`](./controlposition.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`controlposition`](./controlposition.html) | controlposition |  |
+|------|------|-------------|
+| `tag` | [`tag`](./tag.html) | Defined tag used as the group for this control position |
 
 

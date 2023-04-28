@@ -10,7 +10,7 @@ layout: default
 ##  [`quadrant`](./quadrant.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`quadrant`](./quadrant.html) | quadrant |  |
+|------|------|-------------|
+| `inverse` | [`quadrant`](./quadrant.html) | the opposite direction of the quadrant |
 
 

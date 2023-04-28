@@ -10,7 +10,7 @@ layout: default
 ##  [`loadout`](./loadout.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`loadout`](./loadout.html) | loadout |  |
+|------|------|-------------|
+| `wares` | [`warelist`](./warelist.html) | All equipment wares in the loadout |
 
 

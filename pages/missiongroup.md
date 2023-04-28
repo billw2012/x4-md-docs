@@ -10,7 +10,12 @@ layout: default
 ##  [`missiongroup`](./missiongroup.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`missiongroup`](./missiongroup.html) | missiongroup |  |
+|------|------|-------------|
+| `id` | [`string`](./string.html) | ID |
+| `name` | [`string`](./string.html) | Name of the mission group |
+| `rawname` | [`string`](./string.html) | Raw name of the mission group, as text entry reference |
+| `description` | [`string`](./string.html) | Description of the mission group |
+| `faction` | [`faction`](./faction.html) | Primary faction |
+| `enemy` | [`faction`](./faction.html) | Enemy faction |
 
 

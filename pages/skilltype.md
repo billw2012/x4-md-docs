@@ -10,7 +10,8 @@ layout: default
 ##  [`skilltype`](./skilltype.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`skilltype`](./skilltype.html) | skilltype |  |
+|------|------|-------------|
+| `name` | [`string`](./string.html) | Skill name |
+| `ware` | [`ware`](./ware.html) | Skill upgrade ware associated with this skill type |
 
 

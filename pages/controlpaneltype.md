@@ -10,7 +10,8 @@ layout: default
 ##  [`controlpaneltype`](./controlpaneltype.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`controlpaneltype`](./controlpaneltype.html) | controlpaneltype |  |
+|------|------|-------------|
+| `name` | [`string`](./string.html) | Name of control panel type |
+| `requireditems` | [`wareamountlist`](./wareamountlist.html) | Required items for hacking |
 
 

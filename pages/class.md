@@ -10,7 +10,9 @@ layout: default
 ##  [`class`](./class.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`class`](./class.html) | class |  |
+|------|------|-------------|
+| `isclass.{$class}` | [`boolean`](./boolean.html) | true iff this class is of the given class |
+| `isclass.<classname>` | [`boolean`](./boolean.html) | Shortcut for isclass.{class.<classname>} |
+| `isclass.{$list}` | [`boolean`](./boolean.html) | true iff this class is of one of the classes in the list |
 
 

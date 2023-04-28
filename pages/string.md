@@ -10,7 +10,7 @@ layout: default
 ##  [`string`](./string.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`string`](./string.html) | string |  |
+|------|------|-------------|
+| `[$arg1, $arg2, ...]` | [`string`](./string.html) | Creates a new string by replacing %1, %2, ... in the string with corresponding list elements |
 
 

@@ -10,7 +10,8 @@ layout: default
 ##  [`shiptype`](./shiptype.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`shiptype`](./shiptype.html) | shiptype |  |
+|------|------|-------------|
+| `name` | [`string`](./string.html) | Name of the ship type |
+| `description` | [`string`](./string.html) | Description of the ship type |
 
 

@@ -10,7 +10,10 @@ layout: default
 ##  [`assignment`](./assignment.html) 
 ## Properties
 | Name | Type | Description |
-|:-----|:-----|:------------|
-| [`assignment`](./assignment.html) | assignment |  |
+|------|------|-------------|
+| `name` | [`string`](./string.html) | Name of the assignment |
+| `rawname` | [`string`](./string.html) | Raw name of the assignment, as text entry reference |
+| `description` | [`string`](./string.html) | Description of the assignment |
+| `icon` | [`string`](./string.html) | Icon ID of the assignment |
 
 
