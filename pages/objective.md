@@ -4,7 +4,7 @@ description: Properties of objective
 display_order: 1
 ---
 
-## objective
+## objectiveinherits from [`enum`](./enum.html)
 
 ### Properties
 

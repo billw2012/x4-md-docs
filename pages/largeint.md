@@ -4,7 +4,7 @@ description: Properties of largeint
 display_order: 1
 ---
 
-## largeint
+## largeintinherits from [`numeric`](./numeric.html)
 
 ### Properties
 

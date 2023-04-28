@@ -4,7 +4,7 @@ description: Properties of activity
 display_order: 1
 ---
 
-## activity
+## activityinherits from [`enum`](./enum.html)
 
 ### Properties
 

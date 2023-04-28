@@ -4,7 +4,7 @@ description: Properties of flightcontrolmodel
 display_order: 1
 ---
 
-## flightcontrolmodel
+## flightcontrolmodelinherits from [`enum`](./enum.html)
 
 ### Properties
 

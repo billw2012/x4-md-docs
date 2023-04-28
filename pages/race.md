@@ -4,17 +4,17 @@ description: Properties of race
 display_order: 1
 ---
 
-## race
+## raceinherits from [`dbdata`](./dbdata.html)
 
 ### Properties
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `height` | [`float`](./float.md) | Default height for characters of this race | (this) |
-| `id` | [`string`](./string.md) | ID | (this) |
-| `facecutscene` | [`string`](./string.md) | Face cutscene key for this race, or null if no default is defined | (this) |
-| `description` | [`string`](./string.md) | Description | (this) |
-| `rawname` | [`string`](./string.md) | Raw name, as text entry reference | (this) |
-| `name` | [`string`](./string.md) | Name | (this) |
-| `workforce.resources` | [`wareamountlist`](./wareamountlist.md) | Resoures needed for the workforce of this race to prosper | (this) |
+| `id` | [`string`](./string.html) | ID | (this) |
+| `name` | [`string`](./string.html) | Name | (this) |
+| `rawname` | [`string`](./string.html) | Raw name, as text entry reference | (this) |
+| `description` | [`string`](./string.html) | Description | (this) |
+| `height` | [`float`](./float.html) | Default height for characters of this race | (this) |
+| `facecutscene` | [`string`](./string.html) | Face cutscene key for this race, or null if no default is defined | (this) |
+| `workforce.resources` | [`wareamountlist`](./wareamountlist.html) | Resoures needed for the workforce of this race to prosper | (this) |
 

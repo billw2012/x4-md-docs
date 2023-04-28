@@ -4,7 +4,7 @@ description: Properties of blacklisttype
 display_order: 1
 ---
 
-## blacklisttype
+## blacklisttypeinherits from [`enum`](./enum.html)
 
 ### Properties
 

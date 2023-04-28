@@ -4,14 +4,14 @@ description: Properties of entitytype
 display_order: 1
 ---
 
-## entitytype
+## entitytypeinherits from [`dbdata`](./dbdata.html)
 
 ### Properties
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `icon` | [`string`](./string.md) | Icon ID of the entity type | (this) |
-| `description` | [`string`](./string.md) | Description of the entity type | (this) |
-| `name` | [`string`](./string.md) | Default name of the entity type | (this) |
-| `rawname` | [`string`](./string.md) | Raw default name of the entity type, as text entry reference | (this) |
+| `name` | [`string`](./string.html) | Default name of the entity type | (this) |
+| `rawname` | [`string`](./string.html) | Raw default name of the entity type, as text entry reference | (this) |
+| `description` | [`string`](./string.html) | Description of the entity type | (this) |
+| `icon` | [`string`](./string.html) | Icon ID of the entity type | (this) |
 

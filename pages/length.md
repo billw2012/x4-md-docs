@@ -4,7 +4,7 @@ description: Properties of length
 display_order: 1
 ---
 
-## length
+## lengthinherits from [`numeric`](./numeric.html)
 
 ### Properties
 

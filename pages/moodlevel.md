@@ -4,7 +4,7 @@ description: Properties of moodlevel
 display_order: 1
 ---
 
-## moodlevel
+## moodlevelinherits from [`enum`](./enum.html)
 
 ### Properties
 

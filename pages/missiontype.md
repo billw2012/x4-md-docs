@@ -4,7 +4,7 @@ description: Properties of missiontype
 display_order: 1
 ---
 
-## missiontype
+## missiontypeinherits from [`enum`](./enum.html)
 
 ### Properties
 

@@ -4,7 +4,7 @@ description: Properties of attention
 display_order: 1
 ---
 
-## attention
+## attentioninherits from [`enum`](./enum.html)
 
 ### Properties
 

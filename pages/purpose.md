@@ -4,7 +4,7 @@ description: Properties of purpose
 display_order: 1
 ---
 
-## purpose
+## purposeinherits from [`enum`](./enum.html)
 
 ### Properties
 

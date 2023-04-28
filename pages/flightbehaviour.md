@@ -4,7 +4,7 @@ description: Properties of flightbehaviour
 display_order: 1
 ---
 
-## flightbehaviour
+## flightbehaviourinherits from [`enum`](./enum.html)
 
 ### Properties
 

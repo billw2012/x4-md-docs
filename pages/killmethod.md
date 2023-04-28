@@ -4,7 +4,7 @@ description: Properties of killmethod
 display_order: 1
 ---
 
-## killmethod
+## killmethodinherits from [`enum`](./enum.html)
 
 ### Properties
 

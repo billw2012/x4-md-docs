@@ -4,16 +4,16 @@ description: Properties of missiongroup
 display_order: 1
 ---
 
-## missiongroup
+## missiongroupinherits from [`dbdata`](./dbdata.html)
 
 ### Properties
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `id` | [`string`](./string.md) | ID | (this) |
-| `description` | [`string`](./string.md) | Description of the mission group | (this) |
-| `rawname` | [`string`](./string.md) | Raw name of the mission group, as text entry reference | (this) |
-| `name` | [`string`](./string.md) | Name of the mission group | (this) |
-| `enemy` | [`faction`](./faction.md) | Enemy faction | (this) |
-| `faction` | [`faction`](./faction.md) | Primary faction | (this) |
+| `id` | [`string`](./string.html) | ID | (this) |
+| `name` | [`string`](./string.html) | Name of the mission group | (this) |
+| `rawname` | [`string`](./string.html) | Raw name of the mission group, as text entry reference | (this) |
+| `description` | [`string`](./string.html) | Description of the mission group | (this) |
+| `faction` | [`faction`](./faction.html) | Primary faction | (this) |
+| `enemy` | [`faction`](./faction.html) | Enemy faction | (this) |
 

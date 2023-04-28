@@ -4,11 +4,11 @@ description: Properties of waretransport
 display_order: 1
 ---
 
-## waretransport
+## waretransportinherits from [`enum`](./enum.html)
 
 ### Properties
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `name` | [`string`](./string.md) | Name of ware transport type | (this) |
+| `name` | [`string`](./string.html) | Name of ware transport type | (this) |
 

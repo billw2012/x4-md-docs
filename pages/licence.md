@@ -10,14 +10,14 @@ display_order: 1
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `description` | [`string`](./string.md) | Licence description | (this) |
-| `type` | [`string`](./string.md) | Licence type | (this) |
-| `price` | [`money`](./money.md) | Licence price | (this) |
-| `exists` | [`boolean`](./boolean.md) | true iff licence exists | (this) |
-| `minrelation` | [`float`](./float.md) | Min relation to acquire this licence | (this) |
-| `rawname` | [`string`](./string.md) | Raw licence name, as text entry reference | (this) |
-| `name` | [`string`](./string.md) | Licence name | (this) |
-| `precursor` | [`string`](./string.md) | Licence type to acquire this licence | (this) |
-| `faction` | [`faction`](./faction.md) | Faction | (this) |
-| `issellable` | [`boolean`](./boolean.md) | true iff licence is sellable from traders | (this) |
+| `exists` | [`boolean`](./boolean.html) | true iff licence exists | (this) |
+| `name` | [`string`](./string.html) | Licence name | (this) |
+| `rawname` | [`string`](./string.html) | Raw licence name, as text entry reference | (this) |
+| `description` | [`string`](./string.html) | Licence description | (this) |
+| `minrelation` | [`float`](./float.html) | Min relation to acquire this licence | (this) |
+| `precursor` | [`string`](./string.html) | Licence type to acquire this licence | (this) |
+| `price` | [`money`](./money.html) | Licence price | (this) |
+| `issellable` | [`boolean`](./boolean.html) | true iff licence is sellable from traders | (this) |
+| `faction` | [`faction`](./faction.html) | Faction | (this) |
+| `type` | [`string`](./string.html) | Licence type | (this) |
 

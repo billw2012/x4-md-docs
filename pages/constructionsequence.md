@@ -10,7 +10,7 @@ display_order: 1
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `{$constructionplanentryid}` | [`constructionplanentrydata`](./constructionplanentrydata.md) | The matching construction plan entry in this sequence | (this) |
-| `count` | [`integer`](./integer.md) | Number of entries in construction sequence | (this) |
-| `{$numeric}` | [`constructionplanentrydata`](./constructionplanentrydata.md) | The $numeric-th construction plan entry in this sequence | (this) |
+| `count` | [`integer`](./integer.html) | Number of entries in construction sequence | (this) |
+| `{$numeric}` | [`constructionplanentrydata`](./constructionplanentrydata.html) | The $numeric-th construction plan entry in this sequence | (this) |
+| `{$constructionplanentryid}` | [`constructionplanentrydata`](./constructionplanentrydata.html) | The matching construction plan entry in this sequence | (this) |
 

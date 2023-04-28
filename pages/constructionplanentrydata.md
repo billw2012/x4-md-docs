@@ -10,8 +10,8 @@ display_order: 1
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `loadout` | [`loadout`](./loadout.md) | The upgrade loadout of the construction plan entry | (this) |
-| `id` | [`constructionplanentryid`](./constructionplanentryid.md) | The construction plan entry | (this) |
-| `macro` | [`macro`](./macro.md) | The macro of the construction plan entry | (this) |
-| `exists` | [`boolean`](./boolean.md) | true iff the construction plan entry exists in the construction sequence | (this) |
+| `exists` | [`boolean`](./boolean.html) | true iff the construction plan entry exists in the construction sequence | (this) |
+| `id` | [`constructionplanentryid`](./constructionplanentryid.html) | The construction plan entry | (this) |
+| `macro` | [`macro`](./macro.html) | The macro of the construction plan entry | (this) |
+| `loadout` | [`loadout`](./loadout.html) | The upgrade loadout of the construction plan entry | (this) |
 

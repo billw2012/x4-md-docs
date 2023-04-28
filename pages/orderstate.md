@@ -4,7 +4,7 @@ description: Properties of orderstate
 display_order: 1
 ---
 
-## orderstate
+## orderstateinherits from [`enum`](./enum.html)
 
 ### Properties
 

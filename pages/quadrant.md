@@ -4,11 +4,11 @@ description: Properties of quadrant
 display_order: 1
 ---
 
-## quadrant
+## quadrantinherits from [`kwenum`](./kwenum.html)
 
 ### Properties
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `inverse` | [`quadrant`](./quadrant.md) | the opposite direction of the quadrant | (this) |
+| `inverse` | [`quadrant`](./quadrant.html) | the opposite direction of the quadrant | (this) |
 

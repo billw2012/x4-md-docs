@@ -4,7 +4,7 @@ description: Properties of componentstate
 display_order: 1
 ---
 
-## componentstate
+## componentstateinherits from [`enum`](./enum.html)
 
 ### Properties
 

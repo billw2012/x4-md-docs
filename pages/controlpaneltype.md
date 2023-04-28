@@ -4,12 +4,12 @@ description: Properties of controlpaneltype
 display_order: 1
 ---
 
-## controlpaneltype
+## controlpaneltypeinherits from [`enum`](./enum.html)
 
 ### Properties
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `requireditems` | [`wareamountlist`](./wareamountlist.md) | Required items for hacking | (this) |
-| `name` | [`string`](./string.md) | Name of control panel type | (this) |
+| `name` | [`string`](./string.html) | Name of control panel type | (this) |
+| `requireditems` | [`wareamountlist`](./wareamountlist.html) | Required items for hacking | (this) |
 

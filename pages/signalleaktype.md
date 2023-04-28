@@ -4,7 +4,7 @@ description: Properties of signalleaktype
 display_order: 1
 ---
 
-## signalleaktype
+## signalleaktypeinherits from [`enum`](./enum.html)
 
 ### Properties
 

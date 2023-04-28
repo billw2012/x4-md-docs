@@ -4,7 +4,7 @@ description: Properties of dockstate
 display_order: 1
 ---
 
-## dockstate
+## dockstateinherits from [`enum`](./enum.html)
 
 ### Properties
 

@@ -4,7 +4,7 @@ description: Properties of commandaction
 display_order: 1
 ---
 
-## commandaction
+## commandactioninherits from [`enum`](./enum.html)
 
 ### Properties
 

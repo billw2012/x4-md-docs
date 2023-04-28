@@ -4,7 +4,7 @@ description: Properties of alertlevel
 display_order: 1
 ---
 
-## alertlevel
+## alertlevelinherits from [`enum`](./enum.html)
 
 ### Properties
 

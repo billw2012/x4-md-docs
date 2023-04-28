@@ -4,7 +4,7 @@ description: Properties of weaponmode
 display_order: 1
 ---
 
-## weaponmode
+## weaponmodeinherits from [`enum`](./enum.html)
 
 ### Properties
 

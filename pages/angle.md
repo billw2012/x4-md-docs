@@ -4,7 +4,7 @@ description: Properties of angle
 display_order: 1
 ---
 
-## angle
+## angleinherits from [`numeric`](./numeric.html)
 
 ### Properties
 

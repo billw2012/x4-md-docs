@@ -10,8 +10,8 @@ display_order: 1
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `list` | [`list`](./list.md) | All lookup entries as a script list | (this) |
-| `random` |  | Random lookup entry | (this) |
+| `count` | [`integer`](./integer.html) | Number of lookup entries | (this) |
 | `{$index}` |  | Lookup entry at index position | (this) |
-| `count` | [`integer`](./integer.md) | Number of lookup entries | (this) |
+| `list` | [`list`](./list.html) | All lookup entries as a script list | (this) |
+| `random` |  | Random lookup entry | (this) |
 

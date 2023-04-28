@@ -4,7 +4,7 @@ description: Properties of command
 display_order: 1
 ---
 
-## command
+## commandinherits from [`enum`](./enum.html)
 
 ### Properties
 

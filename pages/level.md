@@ -4,7 +4,7 @@ description: Properties of level
 display_order: 1
 ---
 
-## level
+## levelinherits from [`enum`](./enum.html)
 
 ### Properties
 

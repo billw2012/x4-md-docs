@@ -4,7 +4,7 @@ description: Properties of float
 display_order: 1
 ---
 
-## float
+## floatinherits from [`numeric`](./numeric.html)
 
 ### Properties
 

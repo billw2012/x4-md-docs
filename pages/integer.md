@@ -4,7 +4,7 @@ description: Properties of integer
 display_order: 1
 ---
 
-## integer
+## integerinherits from [`numeric`](./numeric.html)
 
 ### Properties
 

@@ -4,7 +4,7 @@ description: Properties of largefloat
 display_order: 1
 ---
 
-## largefloat
+## largefloatinherits from [`numeric`](./numeric.html)
 
 ### Properties
 

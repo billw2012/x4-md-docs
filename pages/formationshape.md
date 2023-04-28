@@ -4,7 +4,7 @@ description: Properties of formationshape
 display_order: 1
 ---
 
-## formationshape
+## formationshapeinherits from [`enum`](./enum.html)
 
 ### Properties
 

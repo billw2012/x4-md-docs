@@ -4,7 +4,7 @@ description: Properties of dronemode
 display_order: 1
 ---
 
-## dronemode
+## dronemodeinherits from [`enum`](./enum.html)
 
 ### Properties
 

@@ -4,7 +4,7 @@ description: Properties of boolean
 display_order: 1
 ---
 
-## boolean
+## booleaninherits from [`integer`](./integer.html)
 
 ### Properties
 

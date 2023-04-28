@@ -4,7 +4,7 @@ description: Properties of hitpoints
 display_order: 1
 ---
 
-## hitpoints
+## hitpointsinherits from [`numeric`](./numeric.html)
 
 ### Properties
 

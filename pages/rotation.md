@@ -10,8 +10,8 @@ display_order: 1
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `pitch` | [`angle`](./angle.md) | Pitch angle | (this) |
-| `inverse` | [`rotation`](./rotation.md) | Inverse rotation | (this) |
-| `yaw` | [`angle`](./angle.md) | Yaw angle | (this) |
-| `roll` | [`angle`](./angle.md) | Roll angle | (this) |
+| `yaw` | [`angle`](./angle.html) | Yaw angle | (this) |
+| `pitch` | [`angle`](./angle.html) | Pitch angle | (this) |
+| `roll` | [`angle`](./angle.html) | Roll angle | (this) |
+| `inverse` | [`rotation`](./rotation.html) | Inverse rotation | (this) |
 

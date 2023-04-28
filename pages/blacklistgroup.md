@@ -4,7 +4,7 @@ description: Properties of blacklistgroup
 display_order: 1
 ---
 
-## blacklistgroup
+## blacklistgroupinherits from [`enum`](./enum.html)
 
 ### Properties
 

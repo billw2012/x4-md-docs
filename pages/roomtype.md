@@ -4,7 +4,7 @@ description: Properties of roomtype
 display_order: 1
 ---
 
-## roomtype
+## roomtypeinherits from [`enum`](./enum.html)
 
 ### Properties
 

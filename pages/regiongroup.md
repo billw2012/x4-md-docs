@@ -4,7 +4,7 @@ description: Properties of regiongroup
 display_order: 1
 ---
 
-## regiongroup
+## regiongroupinherits from [`enum`](./enum.html)
 
 ### Properties
 

@@ -4,7 +4,7 @@ description: Properties of cuestate
 display_order: 1
 ---
 
-## cuestate
+## cuestateinherits from [`kwenum`](./kwenum.html)
 
 ### Properties
 

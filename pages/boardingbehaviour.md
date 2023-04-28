@@ -4,7 +4,7 @@ description: Properties of boardingbehaviour
 display_order: 1
 ---
 
-## boardingbehaviour
+## boardingbehaviourinherits from [`enum`](./enum.html)
 
 ### Properties
 

@@ -10,5 +10,5 @@ display_order: 1
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `wares` | [`warelist`](./warelist.md) | All equipment wares in the loadout | (this) |
+| `wares` | [`warelist`](./warelist.html) | All equipment wares in the loadout | (this) |
 

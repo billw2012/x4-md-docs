@@ -10,5 +10,5 @@ display_order: 1
 
 | Name | Type | Description | Origin |
 |------|------|-------------|--------|
-| `[$arg1, $arg2, ...]` | [`string`](./string.md) | Creates a new string by replacing %1, %2, ... in the string with corresponding list elements | (this) |
+| `[$arg1, $arg2, ...]` | [`string`](./string.html) | Creates a new string by replacing %1, %2, ... in the string with corresponding list elements | (this) |
 

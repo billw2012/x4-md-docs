@@ -4,7 +4,7 @@ description: Properties of boardingphase
 display_order: 1
 ---
 
-## boardingphase
+## boardingphaseinherits from [`enum`](./enum.html)
 
 ### Properties
 
