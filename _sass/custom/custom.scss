@@ -1,6 +1,11 @@
 @media print {
     .main {
         position: relative;
+        max-width: none;
         margin-left: 248px;
     }
+}
+
+code {
+    font-size: 1.25em;
 }
