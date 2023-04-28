@@ -1,10 +1,10 @@
 ---
 title: killmethod
 description: Properties of killmethod
-display_order: 143
-nav_order: 143
+display_order: 75
+nav_order: 75
 parent: Index
 layout: default
 ---
 
-## killmethodinherits from [`enum`](./enum.html)
+

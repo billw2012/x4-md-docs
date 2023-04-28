@@ -1,10 +1,10 @@
 ---
 title: moodlevel
 description: Properties of moodlevel
-display_order: 72
-nav_order: 72
+display_order: 96
+nav_order: 96
 parent: Index
 layout: default
 ---
 
-## moodlevelinherits from [`enum`](./enum.html)
+

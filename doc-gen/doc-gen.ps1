@@ -6,49 +6,47 @@ $xml = [xml](Get-Content -Path ".\doc-gen\scriptproperties.xml")
 # Create an empty hashtable to store the properties of each datatype
 $datatypes = @{}
 
-# Recursive function to get all properties, including inherited ones
-function Get-InheritedProperties($node) {
-    
+function Get-Properties($node) {
     $nodeName = $node.Attributes["name"].Value
     Write-Host "$nodeName"
 
-    if ($node.Attributes["type"]) {
-        $parentName = $node.Attributes["type"].Value
-        $parentNode = $xml.SelectSingleNode("//datatype[@name='$parentName']")
-        if($parentName -eq "dbdata") {
-            Write-Host "but why"
-        }
-        $properties = [System.Collections.Generic.List[PSObject]](Get-InheritedProperties($parentNode))
-    }
-
-    if($null -eq $properties) {
-        $properties = New-Object System.Collections.Generic.List[PSObject]
-    }
+    $properties = New-Object System.Collections.Generic.List[PSObject]
 
     foreach ($propertyNode in $node.SelectNodes("property")) {
         $propertyName = $propertyNode.Attributes["name"].Value
         $propertyType = $propertyNode.Attributes["type"].Value
         $propertyDescription = $propertyNode.Attributes["result"].Value
-        $nodeOrigin = $node.Attributes["name"].Value
-
-        # $property = New-Object PSObject -Property @{
-        #     Name = $propertyName
-        #     Type = $propertyType
-        #     Description = $propertyDescription
-        #     NodeName = $nodeOrigin
-        # }
-
-        $property = @{
+        $properties.Add(@{
             Name = $propertyName
             Type = $propertyType
             Description = $propertyDescription
-            NodeName = $nodeOrigin
-        }
-
-        $properties.Add($property) # (New-Object PSObject -Property $property))
+        })
     }
 
     return $properties
+}
+
+# Recursive function to get all properties, including inherited ones
+function Get-InheritedProperties($node) {
+    $nodeName = $node.Attributes["name"].Value
+    Write-Host "$nodeName"
+
+    $propertyGroups = New-Object System.Collections.Generic.List[PSObject]
+
+    while ($node) {
+        $properties = Get-Properties($node)
+        if($properties) {
+            $propertyGroups.Add(@{
+                Type = $nodeName
+                Properties = $properties
+            })
+        }
+        # move to parent
+        $nodeName = $node.Attributes["type"].Value
+        $node = $xml.SelectSingleNode("//datatype[@name='$nodeName']")
+    }
+
+    return $propertyGroups
 }
 
 # Loop through each datatype node and store its properties in the hashtable
@@ -60,7 +58,7 @@ foreach ($datatypeNode in $xml.SelectNodes("//datatype")) {
     # Add the datatype and its properties to the hashtable
     $datatypes.Add($datatypeName, @{
         Type = $datatypeType
-        Properties = $datatypeProperties
+        PropertyGroups = $datatypeProperties
     })
 }
 
@@ -70,7 +68,8 @@ if (-not (Test-Path -Path ".\pages" -PathType Container)) {
 }
 # Loop through each datatype and generate a markdown file
 $i = 1;
-foreach ($datatype in $datatypes.Keys) {
+
+foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
     $markdown = "---`r`n"
     $markdown += "title: $datatype`r`n"
     $markdown += "description: Properties of $datatype`r`n"
@@ -80,39 +79,67 @@ foreach ($datatype in $datatypes.Keys) {
     $i++
     $markdown += "layout: default`r`n"
     $markdown += "---`r`n`r`n"
-    $markdown += "## $datatype"
-    $type = $datatypes[$datatype].Type
-    if ($type -and $datatypes.ContainsKey($type)) {
-        $markdown += "inherits from [``$type``](./$type.html)"
-    } elseif($type) {
-        $markdown += "inherits from $type"
-    }
+    # $markdown += "## $datatype"
+    # $type = $datatypes[$datatype].Type
+    # if ($type -and $datatypes.ContainsKey($type)) {
+    #     $markdown += "inherits from [``$type``](./$type.html)"
+    # } elseif($type) {
+    #     $markdown += "inherits from $type"
+    # }
     
-    if($datatypes[$datatype].Properties) {
-        $markdown += "`r`n`r`n### Properties`r`n`r`n"
-        $markdown += "| Name | Type | Description | Origin |`r`n"
-        $markdown += "|------|------|-------------|--------|`r`n"
+    if($datatypes[$datatype].PropertyGroups) {
+        # Output the hierarchy
+        $start = $true
 
-        foreach ($property in $datatypes[$datatype].Properties) {
-            $propertyName = $property.Name
-            $propertyType = $property.Type
-            $propertyDescription = $property.Description
-            $nodeOrigin = $property.NodeName
+        $inheritance = ""
+        $propertyTable = ""
 
-            # If the property type is a reference type, add a link to the related page
-            if ($propertyType -and $datatypes.ContainsKey($propertyType)) {
-                $propertyType = "[``$propertyType``](./$propertyType.html)"
+        foreach ($propertyGroup in $datatypes[$datatype].PropertyGroups) {
+            # Separate the inheritance breadcrumbs
+            if(-not $start) {
+                $inheritance += " > "
             }
 
-            # If the property is inherited, add the parent datatype to the description
-            if ($nodeOrigin -ne $datatype) {
-                $originString = "[``$nodeOrigin``](./$nodeOrigin.html)"
+            # Format the current type
+            $currType = $propertyGroup.Type
+            if($datatypes[$currType]) {
+                $currTypeMarkdown = "[``$currType``](./$currType.html)"
             } else {
-                $originString = "(this)"
+                $currTypeMarkdown = "``$currType``"
             }
 
-            $markdown += "| ``$propertyName`` | $propertyType | $propertyDescription | $originString |`r`n"
+            $inheritance += " $currTypeMarkdown "
+
+            # Dump the properties for the current type
+            if($currType -ne $datatype) {
+                $propertyTable += "## Properties inherited from $currTypeMarkdown`r`n"
+            } else {
+                $propertyTable += "## Properties`r`n"
+            }
+
+            $propertyTable += "| Name | Type | Description |`r`n"
+            $propertyTable += "|:-----|:-----|:------------|`r`n"
+
+            foreach ($property in $datatypes[$datatype].PropertyGroups) {
+                $propertyName = $property.Name
+                $propertyType = $property.Type
+                $propertyDescription = $property.Description
+
+                # If the property type is a reference type, add a link to the related page
+                if ($propertyType -and $datatypes.ContainsKey($propertyType)) {
+                    $propertyTypeMarkDown = "[``$propertyType``](./$propertyType.html)"
+                } else {
+                    $propertyTypeMarkDown = "``$propertyType``"
+                }
+
+                $propertyTable += "| $propertyTypeMarkDown | $propertyType | $propertyDescription |`r`n"
+            }
         }
+
+        $markdown += "## $inheritance"
+        $markdown += "`r`n"
+        $markdown += $propertyTable
+        $markdown += "`r`n"
     }
 
     # Save the markdown file

@@ -1,18 +1,16 @@
 ---
 title: controlpaneltype
 description: Properties of controlpaneltype
-display_order: 93
-nav_order: 93
+display_order: 38
+nav_order: 38
 parent: Index
 layout: default
 ---
 
-## controlpaneltypeinherits from [`enum`](./enum.html)
+##  [`controlpaneltype`](./controlpaneltype.html) 
+## Properties
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| [`controlpaneltype`](./controlpaneltype.html) | controlpaneltype |  |
 
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-| `name` | [`string`](./string.html) | Name of control panel type | (this) |
-| `requireditems` | [`wareamountlist`](./wareamountlist.html) | Required items for hacking | (this) |
 

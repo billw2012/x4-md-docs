@@ -1,10 +1,10 @@
 ---
 title: numeric
 description: Properties of numeric
-display_order: 128
-nav_order: 128
+display_order: 104
+nav_order: 104
 parent: Index
 layout: default
 ---
 
-## numeric
+

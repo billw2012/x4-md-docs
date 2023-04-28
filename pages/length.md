@@ -1,10 +1,10 @@
 ---
 title: length
 description: Properties of length
-display_order: 135
-nav_order: 135
+display_order: 79
+nav_order: 79
 parent: Index
 layout: default
 ---
 
-## lengthinherits from [`numeric`](./numeric.html)
+

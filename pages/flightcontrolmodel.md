@@ -1,10 +1,10 @@
 ---
 title: flightcontrolmodel
 description: Properties of flightcontrolmodel
-display_order: 115
-nav_order: 115
+display_order: 63
+nav_order: 63
 parent: Index
 layout: default
 ---
 
-## flightcontrolmodelinherits from [`enum`](./enum.html)
+

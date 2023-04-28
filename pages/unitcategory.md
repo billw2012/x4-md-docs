@@ -1,19 +1,16 @@
 ---
 title: unitcategory
 description: Properties of unitcategory
-display_order: 37
-nav_order: 37
+display_order: 144
+nav_order: 144
 parent: Index
 layout: default
 ---
 
-## unitcategoryinherits from [`enum`](./enum.html)
+##  [`unitcategory`](./unitcategory.html) 
+## Properties
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| [`unitcategory`](./unitcategory.html) | unitcategory |  |
 
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-| `name` | [`string`](./string.html) | Name of the unit category | (this) |
-| `maxmk` | [`integer`](./integer.html) | Maximum mk for this unit category | (this) |
-| `mk.{$i}.list` | [`list`](./list.html) | List of unit macros of the category and mk | (this) |
 

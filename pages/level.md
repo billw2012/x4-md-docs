@@ -1,10 +1,10 @@
 ---
 title: level
 description: Properties of level
-display_order: 59
-nav_order: 59
+display_order: 80
+nav_order: 80
 parent: Index
 layout: default
 ---
 
-## levelinherits from [`enum`](./enum.html)
+

@@ -1,10 +1,10 @@
 ---
 title: attention
 description: Properties of attention
-display_order: 145
-nav_order: 145
+display_order: 7
+nav_order: 7
 parent: Index
 layout: default
 ---
 
-## attentioninherits from [`enum`](./enum.html)
+

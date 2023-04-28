@@ -1,10 +1,10 @@
 ---
 title: command
 description: Properties of command
-display_order: 147
-nav_order: 147
+display_order: 25
+nav_order: 25
 parent: Index
 layout: default
 ---
 
-## commandinherits from [`enum`](./enum.html)
+

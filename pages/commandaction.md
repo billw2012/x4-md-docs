@@ -1,10 +1,10 @@
 ---
 title: commandaction
 description: Properties of commandaction
-display_order: 4
-nav_order: 4
+display_order: 26
+nav_order: 26
 parent: Index
 layout: default
 ---
 
-## commandactioninherits from [`enum`](./enum.html)
+

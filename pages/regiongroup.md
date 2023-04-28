@@ -1,10 +1,10 @@
 ---
 title: regiongroup
 description: Properties of regiongroup
-display_order: 67
-nav_order: 67
+display_order: 118
+nav_order: 118
 parent: Index
 layout: default
 ---
 
-## regiongroupinherits from [`enum`](./enum.html)
+

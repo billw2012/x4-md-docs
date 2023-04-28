@@ -1,10 +1,10 @@
 ---
 title: dockstate
 description: Properties of dockstate
-display_order: 120
-nav_order: 120
+display_order: 52
+nav_order: 52
 parent: Index
 layout: default
 ---
 
-## dockstateinherits from [`enum`](./enum.html)
+

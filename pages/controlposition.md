@@ -1,17 +1,16 @@
 ---
 title: controlposition
 description: Properties of controlposition
-display_order: 125
-nav_order: 125
+display_order: 39
+nav_order: 39
 parent: Index
 layout: default
 ---
 
-## controlpositioninherits from [`enum`](./enum.html)
+##  [`controlposition`](./controlposition.html) 
+## Properties
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| [`controlposition`](./controlposition.html) | controlposition |  |
 
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-| `tag` | [`tag`](./tag.html) | Defined tag used as the group for this control position | (this) |
 

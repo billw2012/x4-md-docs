@@ -1,20 +1,16 @@
 ---
 title: constructionplanentrydata
 description: Properties of constructionplanentrydata
-display_order: 7
-nav_order: 7
+display_order: 31
+nav_order: 31
 parent: Index
 layout: default
 ---
 
-## constructionplanentrydata
+##  [`constructionplanentrydata`](./constructionplanentrydata.html) 
+## Properties
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| [`constructionplanentrydata`](./constructionplanentrydata.html) | constructionplanentrydata |  |
 
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-| `exists` | [`boolean`](./boolean.html) | true iff the construction plan entry exists in the construction sequence | (this) |
-| `id` | [`constructionplanentryid`](./constructionplanentryid.html) | The construction plan entry | (this) |
-| `macro` | [`macro`](./macro.html) | The macro of the construction plan entry | (this) |
-| `loadout` | [`loadout`](./loadout.html) | The upgrade loadout of the construction plan entry | (this) |
 

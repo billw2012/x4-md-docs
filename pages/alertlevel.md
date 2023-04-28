@@ -1,10 +1,10 @@
 ---
 title: alertlevel
 description: Properties of alertlevel
-display_order: 10
-nav_order: 10
+display_order: 3
+nav_order: 3
 parent: Index
 layout: default
 ---
 
-## alertlevelinherits from [`enum`](./enum.html)
+

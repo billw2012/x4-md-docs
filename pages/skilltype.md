@@ -1,18 +1,16 @@
 ---
 title: skilltype
 description: Properties of skilltype
-display_order: 47
-nav_order: 47
+display_order: 133
+nav_order: 133
 parent: Index
 layout: default
 ---
 
-## skilltypeinherits from [`enum`](./enum.html)
+##  [`skilltype`](./skilltype.html) 
+## Properties
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| [`skilltype`](./skilltype.html) | skilltype |  |
 
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-| `name` | [`string`](./string.html) | Skill name | (this) |
-| `ware` | [`ware`](./ware.html) | Skill upgrade ware associated with this skill type | (this) |
 

@@ -1,10 +1,10 @@
 ---
 title: dbdata
 description: Properties of dbdata
-display_order: 84
-nav_order: 84
+display_order: 45
+nav_order: 45
 parent: Index
 layout: default
 ---
 
-## dbdata
+

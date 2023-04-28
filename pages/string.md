@@ -1,17 +1,16 @@
 ---
 title: string
 description: Properties of string
-display_order: 92
-nav_order: 92
+display_order: 138
+nav_order: 138
 parent: Index
 layout: default
 ---
 
-## string
+##  [`string`](./string.html) 
+## Properties
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| [`string`](./string.html) | string |  |
 
-### Properties
-
-| Name | Type | Description | Origin |
-|------|------|-------------|--------|
-| `[$arg1, $arg2, ...]` | [`string`](./string.html) | Creates a new string by replacing %1, %2, ... in the string with corresponding list elements | (this) |
 
