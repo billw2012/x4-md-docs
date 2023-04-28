@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: X4 mdscript docs
+description: Unofficial X4 mdscript auto-generated documentation
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://billw2012.github.io/x4-md-docs
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# aux_links:
+#   Template Repository: https://github.com/billw2012/x4-md-docs
