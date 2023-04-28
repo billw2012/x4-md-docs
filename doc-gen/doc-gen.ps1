@@ -97,7 +97,7 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
         foreach ($propertyGroup in $datatypes[$datatype].PropertyGroups) {
             # Separate the inheritance breadcrumbs
             if(-not $start) {
-                $inheritance += " > "
+                $inheritance += " << "
             }
 
             # Format the current type
@@ -134,6 +134,8 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
 
                 $propertyTable += "| ``$propertyName`` | $propertyTypeMarkDown | $propertyDescription |`r`n"
             }
+
+            $start = $false
         }
 
         $markdown += "## $inheritance"
