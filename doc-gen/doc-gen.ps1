@@ -73,7 +73,7 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
     $markdown += "description: Properties of $datatype`r`n"
     $markdown += "display_order: $i`r`n"
     $markdown += "nav_order: $i`r`n"
-    $markdown += "parent: MD Script`r`n"
+    $markdown += "parent: mdscript`r`n"
     $markdown += "layout: default`r`n"
     $markdown += "datatable: true`r`n"
     $markdown += "---`r`n`r`n"
