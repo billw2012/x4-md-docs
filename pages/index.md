@@ -1,7 +1,7 @@
 ---
 title: Index
 layout: home
-has_children: true
+nav_order: 2
 ---
 
 ## Unofficial Auto-generated X4 MD Script Documentation

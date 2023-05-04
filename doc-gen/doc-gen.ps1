@@ -145,5 +145,5 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
     }
 
     # Save the markdown file
-    Set-Content -Path ".\mdscript\pages\$datatype.md" -Value $markdown
+    Set-Content -Path ".\pages\mdscript\$datatype.md" -Value $markdown
 }
