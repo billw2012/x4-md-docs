@@ -5,7 +5,6 @@ display_order: 120
 nav_order: 120
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`resourceprobe`](./resourceprobe.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

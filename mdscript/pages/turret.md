@@ -5,7 +5,6 @@ display_order: 143
 nav_order: 143
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`weapon`](./weapon.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

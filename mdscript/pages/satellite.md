@@ -5,7 +5,6 @@ display_order: 125
 nav_order: 125
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`satellite`](./satellite.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

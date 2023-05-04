@@ -5,7 +5,6 @@ display_order: 85
 nav_order: 85
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`lockbox`](./lockbox.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

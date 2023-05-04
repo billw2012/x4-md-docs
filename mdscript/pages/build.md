@@ -5,7 +5,6 @@ display_order: 13
 nav_order: 13
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`build`](./build.html) 

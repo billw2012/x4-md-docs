@@ -5,7 +5,6 @@ display_order: 94
 nav_order: 94
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`modulecargolist`](./modulecargolist.html)  <<  [`cargolist`](./cargolist.html)  <<  [`wareamountlist`](./wareamountlist.html) 

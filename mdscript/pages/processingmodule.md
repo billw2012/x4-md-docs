@@ -5,7 +5,6 @@ display_order: 112
 nav_order: 112
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`processingmodule`](./processingmodule.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

@@ -5,7 +5,6 @@ display_order: 99
 nav_order: 99
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`entity`](./entity.html)  <<  [`component`](./component.html) 

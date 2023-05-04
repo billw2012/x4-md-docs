@@ -5,7 +5,6 @@ display_order: 66
 nav_order: 66
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`galaxy`](./galaxy.html)  <<  [`space`](./space.html)  <<  [`component`](./component.html) 

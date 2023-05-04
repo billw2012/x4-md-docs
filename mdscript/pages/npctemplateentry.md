@@ -5,7 +5,6 @@ display_order: 103
 nav_order: 103
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`npctemplateentry`](./npctemplateentry.html) 

@@ -5,7 +5,6 @@ display_order: 131
 nav_order: 131
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`signalleak`](./signalleak.html)  <<  [`component`](./component.html) 

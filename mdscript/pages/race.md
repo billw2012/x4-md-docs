@@ -5,7 +5,6 @@ display_order: 116
 nav_order: 116
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`race`](./race.html) 

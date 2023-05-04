@@ -5,7 +5,6 @@ display_order: 134
 nav_order: 134
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`space`](./space.html)  <<  [`component`](./component.html) 

@@ -5,7 +5,6 @@ display_order: 148
 nav_order: 148
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`walkablemodule`](./walkablemodule.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

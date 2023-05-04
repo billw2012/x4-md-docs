@@ -5,7 +5,6 @@ display_order: 100
 nav_order: 100
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`notification`](./notification.html) 

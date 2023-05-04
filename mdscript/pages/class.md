@@ -5,7 +5,6 @@ display_order: 19
 nav_order: 19
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`class`](./class.html) 

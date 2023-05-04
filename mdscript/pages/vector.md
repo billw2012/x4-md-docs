@@ -5,7 +5,6 @@ display_order: 146
 nav_order: 146
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`vector`](./vector.html) 

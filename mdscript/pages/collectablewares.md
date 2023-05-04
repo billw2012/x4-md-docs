@@ -5,7 +5,6 @@ display_order: 24
 nav_order: 24
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`collectablewares`](./collectablewares.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

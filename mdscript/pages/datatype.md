@@ -5,7 +5,6 @@ display_order: 44
 nav_order: 44
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`datatype`](./datatype.html) 

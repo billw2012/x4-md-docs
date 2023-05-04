@@ -5,7 +5,6 @@ display_order: 144
 nav_order: 144
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`unitcategory`](./unitcategory.html) 

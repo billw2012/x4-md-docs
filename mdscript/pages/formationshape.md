@@ -5,7 +5,6 @@ display_order: 65
 nav_order: 65
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 

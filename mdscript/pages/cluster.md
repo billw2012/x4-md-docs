@@ -5,7 +5,6 @@ display_order: 20
 nav_order: 20
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`cluster`](./cluster.html)  <<  [`space`](./space.html)  <<  [`component`](./component.html) 

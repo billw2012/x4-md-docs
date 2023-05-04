@@ -5,7 +5,6 @@ display_order: 41
 nav_order: 41
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`crate`](./crate.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

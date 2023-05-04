@@ -5,7 +5,6 @@ display_order: 38
 nav_order: 38
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`controlpaneltype`](./controlpaneltype.html) 

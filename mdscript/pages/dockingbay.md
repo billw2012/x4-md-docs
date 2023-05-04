@@ -5,7 +5,6 @@ display_order: 51
 nav_order: 51
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`dockingbay`](./dockingbay.html)  <<  [`room`](./room.html)  <<  [`component`](./component.html) 

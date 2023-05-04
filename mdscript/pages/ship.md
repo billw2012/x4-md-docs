@@ -5,7 +5,6 @@ display_order: 129
 nav_order: 129
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`ship`](./ship.html)  <<  [`container`](./container.html)  <<  [`defensible`](./defensible.html)  <<  [`controllable`](./controllable.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

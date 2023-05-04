@@ -75,7 +75,7 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
     $markdown += "nav_order: $i`r`n"
     $markdown += "parent: MD Script`r`n"
     $markdown += "layout: default`r`n"
-    $markdown += "datatable: true`r`n"
+    # $markdown += "datatable: true`r`n"
     $markdown += "---`r`n`r`n"
     # $markdown += "## $datatype"
     # $type = $datatypes[$datatype].Type

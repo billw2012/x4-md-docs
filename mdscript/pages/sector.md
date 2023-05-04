@@ -5,7 +5,6 @@ display_order: 127
 nav_order: 127
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`sector`](./sector.html)  <<  [`space`](./space.html)  <<  [`component`](./component.html) 

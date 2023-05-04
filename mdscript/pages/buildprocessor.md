@@ -5,7 +5,6 @@ display_order: 15
 nav_order: 15
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`buildprocessor`](./buildprocessor.html)  <<  [`component`](./component.html) 

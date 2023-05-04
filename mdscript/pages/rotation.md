@@ -5,7 +5,6 @@ display_order: 124
 nav_order: 124
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`rotation`](./rotation.html) 

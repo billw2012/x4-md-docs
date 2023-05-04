@@ -5,7 +5,6 @@ display_order: 139
 nav_order: 139
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`table`](./table.html) 

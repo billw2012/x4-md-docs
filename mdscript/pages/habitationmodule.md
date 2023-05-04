@@ -5,7 +5,6 @@ display_order: 69
 nav_order: 69
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`habitationmodule`](./habitationmodule.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

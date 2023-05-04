@@ -5,7 +5,6 @@ display_order: 145
 nav_order: 145
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`unlock`](./unlock.html) 

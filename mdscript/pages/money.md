@@ -5,7 +5,6 @@ display_order: 95
 nav_order: 95
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`money`](./money.html) 

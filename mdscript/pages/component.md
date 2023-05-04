@@ -5,7 +5,6 @@ display_order: 27
 nav_order: 27
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`component`](./component.html) 

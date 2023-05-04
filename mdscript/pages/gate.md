@@ -5,7 +5,6 @@ display_order: 67
 nav_order: 67
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`gate`](./gate.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

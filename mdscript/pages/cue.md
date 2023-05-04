@@ -5,7 +5,6 @@ display_order: 42
 nav_order: 42
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`cue`](./cue.html) 

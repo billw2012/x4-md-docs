@@ -5,7 +5,6 @@ display_order: 30
 nav_order: 30
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`connectionmodule`](./connectionmodule.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

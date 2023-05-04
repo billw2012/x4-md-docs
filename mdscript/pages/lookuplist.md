@@ -5,7 +5,6 @@ display_order: 86
 nav_order: 86
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`lookuplist`](./lookuplist.html) 

@@ -5,7 +5,6 @@ display_order: 48
 nav_order: 48
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`deployablecategory`](./deployablecategory.html) 

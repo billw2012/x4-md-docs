@@ -5,7 +5,6 @@ display_order: 33
 nav_order: 33
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`constructionsequence`](./constructionsequence.html) 

@@ -5,7 +5,6 @@ display_order: 133
 nav_order: 133
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`skilltype`](./skilltype.html) 

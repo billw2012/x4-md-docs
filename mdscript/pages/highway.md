@@ -5,7 +5,6 @@ display_order: 70
 nav_order: 70
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`highway`](./highway.html)  <<  [`zone`](./zone.html)  <<  [`space`](./space.html)  <<  [`component`](./component.html) 

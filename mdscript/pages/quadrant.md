@@ -5,7 +5,6 @@ display_order: 115
 nav_order: 115
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`quadrant`](./quadrant.html) 

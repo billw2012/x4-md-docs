@@ -5,7 +5,6 @@ display_order: 107
 nav_order: 107
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`operation`](./operation.html) 

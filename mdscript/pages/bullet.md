@@ -5,7 +5,6 @@ display_order: 17
 nav_order: 17
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`bullet`](./bullet.html)  <<  [`component`](./component.html) 

@@ -5,7 +5,6 @@ display_order: 81
 nav_order: 81
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`licence`](./licence.html) 

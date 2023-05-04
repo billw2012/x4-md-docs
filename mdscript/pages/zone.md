@@ -5,7 +5,6 @@ display_order: 156
 nav_order: 156
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`zone`](./zone.html)  <<  [`space`](./space.html)  <<  [`component`](./component.html) 

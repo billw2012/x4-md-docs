@@ -5,7 +5,6 @@ display_order: 71
 nav_order: 71
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`highwayentrygate`](./highwayentrygate.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

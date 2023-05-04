@@ -5,7 +5,6 @@ display_order: 152
 nav_order: 152
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`waretransport`](./waretransport.html) 

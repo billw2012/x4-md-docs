@@ -5,7 +5,6 @@ display_order: 23
 nav_order: 23
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`collectableblueprints`](./collectableblueprints.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

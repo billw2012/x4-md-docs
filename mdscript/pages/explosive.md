@@ -5,7 +5,6 @@ display_order: 60
 nav_order: 60
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`explosive`](./explosive.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

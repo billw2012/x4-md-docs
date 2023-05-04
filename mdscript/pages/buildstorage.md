@@ -5,7 +5,6 @@ display_order: 16
 nav_order: 16
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`buildstorage`](./buildstorage.html)  <<  [`container`](./container.html)  <<  [`defensible`](./defensible.html)  <<  [`controllable`](./controllable.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

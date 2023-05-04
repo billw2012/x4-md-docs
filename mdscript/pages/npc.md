@@ -5,7 +5,6 @@ display_order: 101
 nav_order: 101
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`npc`](./npc.html)  <<  [`entity`](./entity.html)  <<  [`component`](./component.html) 

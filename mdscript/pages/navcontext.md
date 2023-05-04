@@ -5,7 +5,6 @@ display_order: 98
 nav_order: 98
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`navcontext`](./navcontext.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

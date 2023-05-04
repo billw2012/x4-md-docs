@@ -5,7 +5,6 @@ display_order: 90
 nav_order: 90
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`missile`](./missile.html)  <<  [`explosive`](./explosive.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

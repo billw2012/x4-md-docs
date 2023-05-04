@@ -5,7 +5,6 @@ display_order: 142
 nav_order: 142
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`trade`](./trade.html) 

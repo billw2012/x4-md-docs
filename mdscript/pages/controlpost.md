@@ -5,7 +5,6 @@ display_order: 40
 nav_order: 40
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`controlpost`](./controlpost.html) 

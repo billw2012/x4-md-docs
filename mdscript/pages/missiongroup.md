@@ -5,7 +5,6 @@ display_order: 91
 nav_order: 91
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`missiongroup`](./missiongroup.html) 

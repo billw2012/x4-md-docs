@@ -5,7 +5,6 @@ display_order: 151
 nav_order: 151
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`warelist`](./warelist.html) 

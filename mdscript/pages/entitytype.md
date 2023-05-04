@@ -5,7 +5,6 @@ display_order: 58
 nav_order: 58
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`entitytype`](./entitytype.html) 

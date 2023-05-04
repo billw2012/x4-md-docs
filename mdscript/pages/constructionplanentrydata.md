@@ -5,7 +5,6 @@ display_order: 31
 nav_order: 31
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`constructionplanentrydata`](./constructionplanentrydata.html) 

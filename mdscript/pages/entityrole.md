@@ -5,7 +5,6 @@ display_order: 57
 nav_order: 57
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`entityrole`](./entityrole.html) 

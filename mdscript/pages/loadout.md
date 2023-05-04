@@ -5,7 +5,6 @@ display_order: 83
 nav_order: 83
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`loadout`](./loadout.html) 

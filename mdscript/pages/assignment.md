@@ -5,7 +5,6 @@ display_order: 6
 nav_order: 6
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`assignment`](./assignment.html) 

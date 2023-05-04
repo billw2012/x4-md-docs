@@ -5,7 +5,6 @@ display_order: 130
 nav_order: 130
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`shiptype`](./shiptype.html) 

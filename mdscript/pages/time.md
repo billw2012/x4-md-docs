@@ -5,7 +5,6 @@ display_order: 141
 nav_order: 141
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`time`](./time.html) 

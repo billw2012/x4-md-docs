@@ -5,7 +5,6 @@ display_order: 5
 nav_order: 5
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`anomaly`](./anomaly.html)  <<  [`object`](./object.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

@@ -5,7 +5,6 @@ display_order: 121
 nav_order: 121
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`room`](./room.html)  <<  [`component`](./component.html) 

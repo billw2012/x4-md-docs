@@ -5,7 +5,6 @@ display_order: 110
 nav_order: 110
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`pier`](./pier.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

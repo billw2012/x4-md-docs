@@ -5,7 +5,6 @@ display_order: 93
 nav_order: 93
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

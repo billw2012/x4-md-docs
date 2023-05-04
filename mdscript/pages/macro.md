@@ -5,7 +5,6 @@ display_order: 87
 nav_order: 87
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`macro`](./macro.html) 

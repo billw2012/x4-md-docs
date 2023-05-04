@@ -5,7 +5,6 @@ display_order: 147
 nav_order: 147
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`ventureplatform`](./ventureplatform.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

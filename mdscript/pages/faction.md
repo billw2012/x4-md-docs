@@ -5,7 +5,6 @@ display_order: 61
 nav_order: 61
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`faction`](./faction.html) 

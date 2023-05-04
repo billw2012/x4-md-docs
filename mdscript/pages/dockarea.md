@@ -5,7 +5,6 @@ display_order: 50
 nav_order: 50
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`dockarea`](./dockarea.html)  <<  [`walkablemodule`](./walkablemodule.html)  <<  [`destructible`](./destructible.html)  <<  [`component`](./component.html) 

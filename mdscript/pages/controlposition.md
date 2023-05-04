@@ -5,7 +5,6 @@ display_order: 39
 nav_order: 39
 parent: MD Script
 layout: default
-datatable: true
 ---
 
 ##  [`controlposition`](./controlposition.html) 
