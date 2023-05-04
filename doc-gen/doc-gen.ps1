@@ -62,22 +62,20 @@ foreach ($datatypeNode in $xml.SelectNodes("//datatype")) {
     })
 }
 
-# Create the target directory if it doesn't exist
-if (-not (Test-Path -Path ".\pages" -PathType Container)) {
-    New-Item -ItemType Directory -Path ".\pages"
-}
 # Loop through each datatype and generate a markdown file
-$i = 1;
+$i = 0;
 
 foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
+    $i++
+
     $markdown = "---`r`n"
     $markdown += "title: $datatype`r`n"
     $markdown += "description: Properties of $datatype`r`n"
     $markdown += "display_order: $i`r`n"
     $markdown += "nav_order: $i`r`n"
-    $markdown += "parent: Index`r`n"
-    $i++
+    $markdown += "parent: MD Script`r`n"
     $markdown += "layout: default`r`n"
+    $markdown += "datatable: true`r`n"
     $markdown += "---`r`n`r`n"
     # $markdown += "## $datatype"
     # $type = $datatypes[$datatype].Type
@@ -117,6 +115,7 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
                 $propertyTable += "`r`n## Properties`r`n`r`n"
             }
 
+            $propertyTable += "<div class=`"datatable-begin`"></div>`r`n"
             $propertyTable += "| Name | Type | Description |`r`n"
             $propertyTable += "|------|------|-------------|`r`n"
 
@@ -134,6 +133,7 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
 
                 $propertyTable += "| ``$propertyName`` | $propertyTypeMarkDown | $propertyDescription |`r`n"
             }
+            $propertyTable += "<div class=`"datatable-end`"></div>`r`n"
 
             $start = $false
         }
@@ -145,5 +145,5 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
     }
 
     # Save the markdown file
-    Set-Content -Path ".\pages\$datatype.md" -Value $markdown
+    Set-Content -Path ".\mdscript\pages\$datatype.md" -Value $markdown
 }

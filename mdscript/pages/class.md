@@ -1,0 +1,25 @@
+---
+title: class
+description: Properties of class
+display_order: 19
+nav_order: 19
+parent: MD Script
+layout: default
+datatable: true
+---
+
+##  [`class`](./class.html) 
+
+
+## Properties
+
+<div class="datatable-begin"></div>
+| Name | Type | Description |
+|------|------|-------------|
+| `isclass.{$class}` | [`boolean`](./boolean.html) | true iff this class is of the given class |
+| `isclass.<classname>` | [`boolean`](./boolean.html) | Shortcut for isclass.{class.<classname>} |
+| `isclass.{$list}` | [`boolean`](./boolean.html) | true iff this class is of one of the classes in the list |
+<div class="datatable-end"></div>
+
+
+
