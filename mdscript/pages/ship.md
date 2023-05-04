@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `type` | [`shiptype`](./shiptype.html) | Ship type |
@@ -69,11 +68,9 @@ datatable: true
 | `cantowobjects` | [`boolean`](./boolean.html) | true iff this ship is capable of towing objects |
 | `towedobject` | [`object`](./object.html) | the object this ship is towing |
 | `takesregiondamage` | [`boolean`](./boolean.html) | true if this ship is susceptible to region damage |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`container`](./container.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `hasmasstraffic` | [`boolean`](./boolean.html) | true iff the container is involved in the zone's mass-traffic network |
@@ -176,11 +173,9 @@ datatable: true
 | `tradewaremoney` | [`money`](./money.html) | amount of money wanted to maintain full target amounts of trade-only wares (not subtracting current account and ignoring existing cargo) |
 | `spawntime` | [`time`](./time.html) | the gametime when this object was created or connected to the universe |
 | `iscontrolpanelhacked.{$controlpaneltype}` | [`boolean`](./boolean.html) | true iff the container has at least one hacked control panel of the specified type |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`defensible`](./defensible.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `iscapturable` | [`boolean`](./boolean.html) | Can this defensible be captured, either via signalleak (S sized) or via boarding (M+ sized). Additionally, for S-ships the pilot will not eject if it is not capturable |
@@ -369,11 +364,9 @@ datatable: true
 | `isdismantlingassignedobject` | [`boolean`](./boolean.html) | Is this object currently dismantling the assigned wreck |
 | `claimedsalvage` | [`object`](./object.html) | The object claimed as either a dismantle or tow target (other defensibles may also have claims) |
 | `haswaveprotection` | [`boolean`](./boolean.html) | Is this object protected against the wave (taking current cargo into account if also a container) |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`controllable`](./controllable.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `pilot` | [`entity`](./entity.html) | Pilot entity |
@@ -491,11 +484,9 @@ datatable: true
 | `controlposition.{$controlposition}.entity` | [`entity`](./entity.html) | Entity currently working at the specified control position (where the room is virtual and does not have control positions) |
 | `controlpositions.list` | [`list`](./list.html) | List of component slots which are control positions |
 | `combinedskill` | [`integer`](./integer.html) | Effective combined skill value (from 0 to 100) of this controllable, taking entity and crew skill, where applicable, into account. |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`object`](./object.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `cansee.{$component}` | [`boolean`](./boolean.html) | true if target component is detected by gravidar of this object |
@@ -590,11 +581,9 @@ datatable: true
 | `salvageclaimants` | [`list`](./list.html) | List of objects which have made a dismantle or tow claim on this object |
 | `isdatavault` | [`boolean`](./boolean.html) | true iff the object is a Data Vault |
 | `islandmark` | [`boolean`](./boolean.html) | true iff the object is a landmark |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`destructible`](./destructible.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `isfunctional` | [`boolean`](./boolean.html) | true iff the object exists in the game graph and is functional |
@@ -618,11 +607,9 @@ datatable: true
 | `makerraces` | [`list`](./list.html) | Maker race list |
 | `primarypurpose` | [`purpose`](./purpose.html) | The object's primary purpose |
 | `threatscore` | [`float`](./float.html) | The object's threat score, either defined by its macro or by defaults based on its primary purpose |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`component`](./component.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the component exists in the game graph |
@@ -768,7 +755,6 @@ datatable: true
 | `phase.scheduled.transitions` | [`list`](./list.html) | The phases that can be started after the scheduled phase has activated |
 | `phase.scheduled.propagation.speed` | [`float`](./float.html) | The propagation speed of the scheduled phase, in m/s (0 if there is none) |
 | `phase.scheduled.propagation.arrivaltime.{$component}` | [`time`](./time.html) | The time at which the propagation of the scheduled phase is going to reach the specified component (-1 if there is no active propagation) |
-<div class="datatable-end"></div>
 
 
 

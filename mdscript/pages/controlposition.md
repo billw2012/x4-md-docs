@@ -13,11 +13,9 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `tag` | [`tag`](./tag.html) | Defined tag used as the group for this control position |
-<div class="datatable-end"></div>
 
 
 

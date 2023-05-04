@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -26,7 +25,6 @@ datatable: true
 | `maxrelation` | [`float`](./float.html) | Maximum relation with owner for this unlock to be triggered |
 | `secrecylevel.min` | [`integer`](./integer.html) | Minimum secrecy level of component for this unlock to be triggered |
 | `secrecylevel.max` | [`integer`](./integer.html) | Maximum secrecy level of component for this unlock to be triggered |
-<div class="datatable-end"></div>
 
 
 

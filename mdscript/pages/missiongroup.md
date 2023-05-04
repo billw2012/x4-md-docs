@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -22,7 +21,6 @@ datatable: true
 | `description` | [`string`](./string.html) | Description of the mission group |
 | `faction` | [`faction`](./faction.html) | Primary faction |
 | `enemy` | [`faction`](./faction.html) | Enemy faction |
-<div class="datatable-end"></div>
 
 
 

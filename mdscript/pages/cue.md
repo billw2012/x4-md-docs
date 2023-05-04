@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff cue exists |
@@ -35,7 +34,6 @@ datatable: true
 | `actor` | [`nonplayer`](./nonplayer.html) | Last associated actor, or null |
 | `actors` | [`list`](./list.html) | List of all associated actors |
 | `$<variable>` | `` | Value of cue variable |
-<div class="datatable-end"></div>
 
 
 

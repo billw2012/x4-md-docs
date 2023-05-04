@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -23,7 +22,6 @@ datatable: true
 | `height` | [`float`](./float.html) | Default height for characters of this race |
 | `facecutscene` | [`string`](./string.html) | Face cutscene key for this race, or null if no default is defined |
 | `workforce.resources` | [`wareamountlist`](./wareamountlist.html) | Resoures needed for the workforce of this race to prosper |
-<div class="datatable-end"></div>
 
 
 

@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `x` | [`length`](./length.html) | X coordinate |
@@ -21,7 +20,6 @@ datatable: true
 | `z` | [`length`](./length.html) | Z coordinate |
 | `length` | [`length`](./length.html) | Estimated length of the vector |
 | `distanceto.{$vector}` | [`length`](./length.html) | Distance to the provided vector |
-<div class="datatable-end"></div>
 
 
 

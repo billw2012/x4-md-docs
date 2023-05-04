@@ -115,7 +115,7 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
                 $propertyTable += "`r`n## Properties`r`n`r`n"
             }
 
-            $propertyTable += "<div class=`"datatable-begin`"></div>`r`n"
+            # $propertyTable += "<div class=`"datatable-begin`"></div>`r`n"
             $propertyTable += "| Name | Type | Description |`r`n"
             $propertyTable += "|------|------|-------------|`r`n"
 
@@ -133,7 +133,7 @@ foreach ($datatype in $($datatypes.Keys) | Sort-Object) {
 
                 $propertyTable += "| ``$propertyName`` | $propertyTypeMarkDown | $propertyDescription |`r`n"
             }
-            $propertyTable += "<div class=`"datatable-end`"></div>`r`n"
+            # $propertyTable += "<div class=`"datatable-end`"></div>`r`n"
 
             $start = $false
         }

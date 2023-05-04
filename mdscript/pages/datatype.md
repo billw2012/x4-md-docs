@@ -13,12 +13,10 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `isnumeric` | [`boolean`](./boolean.html) | true iff the data type is non-null and numeric - example: (typeof $value).isnumeric |
 | `isstring` | [`boolean`](./boolean.html) | true iff the data type is a string - example: (typeof $value).isstring |
-<div class="datatable-end"></div>
 
 
 

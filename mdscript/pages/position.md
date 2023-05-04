@@ -13,14 +13,12 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `x` | [`length`](./length.html) | X coordinate |
 | `y` | [`length`](./length.html) | Y coordinate |
 | `z` | [`length`](./length.html) | Z coordinate |
 | `distanceto.{$position}` | [`length`](./length.html) | Distance to the provided position (assuming they are in the same space) |
-<div class="datatable-end"></div>
 
 
 

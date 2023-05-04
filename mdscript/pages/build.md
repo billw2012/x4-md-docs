@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff build order exists |
@@ -44,7 +43,6 @@ datatable: true
 | `zone` | [`zone`](./zone.html) | space in which the build will take place |
 | `position` | [`position`](./position.html) | position of the build in 'zone' |
 | `rotation` | [`rotation`](./rotation.html) | rotation of the build in 'zone' |
-<div class="datatable-end"></div>
 
 
 

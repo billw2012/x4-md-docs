@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `adjacentzones` | [`list`](./list.html) | List of adjacent zones |
@@ -24,11 +23,9 @@ datatable: true
 | `size` | [`length`](./length.html) | Zone size (edge length) |
 | `hashazardousregionat.{$position}` | [`boolean`](./boolean.html) | Whether the given zone position is inside a hazardous region |
 | `isregioncurrentlyhazardousat.{$position}` | [`boolean`](./boolean.html) | Whether the given zone position is inside a region that is currently hazardous |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`space`](./space.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `economy` | [`float`](./float.html) | Economy value for this space |
@@ -42,11 +39,9 @@ datatable: true
 | `alllocationtags` | [`list`](./list.html) | List of tags relevant to this space location and all parent spaces |
 | `accesslicence` | [`string`](./string.html) | Licence type required for access to this space (null if no restriction) |
 | `accessrestricted` | [`boolean`](./boolean.html) | Access to this space restricted (for player assets) |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`component`](./component.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the component exists in the game graph |
@@ -192,7 +187,6 @@ datatable: true
 | `phase.scheduled.transitions` | [`list`](./list.html) | The phases that can be started after the scheduled phase has activated |
 | `phase.scheduled.propagation.speed` | [`float`](./float.html) | The propagation speed of the scheduled phase, in m/s (0 if there is none) |
 | `phase.scheduled.propagation.arrivaltime.{$component}` | [`time`](./time.html) | The time at which the propagation of the scheduled phase is going to reach the specified component (-1 if there is no active propagation) |
-<div class="datatable-end"></div>
 
 
 

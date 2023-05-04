@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `list` | [`list`](./list.html) | All wares as a script list |
@@ -22,7 +21,6 @@ datatable: true
 | `{$numeric}` | `` | The $numeric-th ware in the ware list (1-based) |
 | `{$ware}.exists` | [`boolean`](./boolean.html) | true iff $ware is in the ware list |
 | `illegalto.{$faction}` | [`boolean`](./boolean.html) | true iff there are wares illegal to $faction, taking into account licences held by the ware owner, if applicable |
-<div class="datatable-end"></div>
 
 
 

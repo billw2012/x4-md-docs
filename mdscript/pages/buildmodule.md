@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `buildprocessor` | [`buildprocessor`](./buildprocessor.html) | A contained build processor |
@@ -66,11 +65,9 @@ datatable: true
 | `freedock.{$docksize}` | [`dockingbay`](./dockingbay.html) | Suitable free dock for this docksize available to this build module (can be occupied) |
 | `buildresources.{$build}` | [`wareamountlist`](./wareamountlist.html) | Total resources for the specified build if built by this module (or the current remaining resources if the build is being processed by this build module) |
 | `neededbuildresources.{$build}` | [`wareamountlist`](./wareamountlist.html) | Total missing resources for the specified build if built by this module (or the current missing remaining resources if the build is being processed by this build module) |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`walkablemodule`](./walkablemodule.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `hasentrypos` | [`boolean`](./boolean.html) | true iff position for dock area entry is defined |
@@ -78,11 +75,9 @@ datatable: true
 | `hasexitpos` | [`boolean`](./boolean.html) | true iff position for dock area exit is defined |
 | `exitpos` | [`position`](./position.html) | Dock area exit position |
 | `numdocks.{$docksize}` | [`integer`](./integer.html) | Number of connected dockingbays supporting the specified docksize |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`destructible`](./destructible.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `isfunctional` | [`boolean`](./boolean.html) | true iff the object exists in the game graph and is functional |
@@ -106,11 +101,9 @@ datatable: true
 | `makerraces` | [`list`](./list.html) | Maker race list |
 | `primarypurpose` | [`purpose`](./purpose.html) | The object's primary purpose |
 | `threatscore` | [`float`](./float.html) | The object's threat score, either defined by its macro or by defaults based on its primary purpose |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`component`](./component.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the component exists in the game graph |
@@ -256,7 +249,6 @@ datatable: true
 | `phase.scheduled.transitions` | [`list`](./list.html) | The phases that can be started after the scheduled phase has activated |
 | `phase.scheduled.propagation.speed` | [`float`](./float.html) | The propagation speed of the scheduled phase, in m/s (0 if there is none) |
 | `phase.scheduled.propagation.arrivaltime.{$component}` | [`time`](./time.html) | The time at which the propagation of the scheduled phase is going to reach the specified component (-1 if there is no active propagation) |
-<div class="datatable-end"></div>
 
 
 

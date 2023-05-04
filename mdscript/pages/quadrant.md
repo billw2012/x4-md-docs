@@ -13,11 +13,9 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `inverse` | [`quadrant`](./quadrant.html) | the opposite direction of the quadrant |
-<div class="datatable-end"></div>
 
 
 

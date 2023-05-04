@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `component` | [`component`](./component.html) | The component part of the componentslot |
@@ -33,7 +32,6 @@ datatable: true
 | `distanceto.{$component}` | [`length`](./length.html) | Distance from this componentslot's offset to $component |
 | `distanceto.{$componentslot}` | [`length`](./length.html) | Distance from this componentslot's offset to the component and connection offset of $componentslot |
 | `distanceto.[$component, $position]` | [`length`](./length.html) | Distance from this componentslot's offset to the $position relative to $component |
-<div class="datatable-end"></div>
 
 
 

@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `macro` | [`macro`](./macro.html) | The macro part of the macroslot |
@@ -25,7 +24,6 @@ datatable: true
 | `rotation` | [`rotation`](./rotation.html) | The rotation of the connection relative to its parent connect |
 | `staticoffset` | [`position`](./position.html) | The static offset position of the connection relative to the macro (taking into account parent connection offsets) |
 | `staticrotation` | [`rotation`](./rotation.html) | The static rotation of the connection relative to the macro (taking into account parent connection offsets) |
-<div class="datatable-end"></div>
 
 
 

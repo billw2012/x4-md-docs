@@ -13,14 +13,12 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `name` | [`string`](./string.html) | Default name of the entity type |
 | `rawname` | [`string`](./string.html) | Raw default name of the entity type, as text entry reference |
 | `description` | [`string`](./string.html) | Description of the entity type |
 | `icon` | [`string`](./string.html) | Icon ID of the entity type |
-<div class="datatable-end"></div>
 
 
 

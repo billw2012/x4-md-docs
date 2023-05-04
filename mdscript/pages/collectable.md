@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties inherited from [`object`](./object.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `cansee.{$component}` | [`boolean`](./boolean.html) | true if target component is detected by gravidar of this object |
@@ -108,11 +107,9 @@ datatable: true
 | `salvageclaimants` | [`list`](./list.html) | List of objects which have made a dismantle or tow claim on this object |
 | `isdatavault` | [`boolean`](./boolean.html) | true iff the object is a Data Vault |
 | `islandmark` | [`boolean`](./boolean.html) | true iff the object is a landmark |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`destructible`](./destructible.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `isfunctional` | [`boolean`](./boolean.html) | true iff the object exists in the game graph and is functional |
@@ -136,11 +133,9 @@ datatable: true
 | `makerraces` | [`list`](./list.html) | Maker race list |
 | `primarypurpose` | [`purpose`](./purpose.html) | The object's primary purpose |
 | `threatscore` | [`float`](./float.html) | The object's threat score, either defined by its macro or by defaults based on its primary purpose |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`component`](./component.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the component exists in the game graph |
@@ -286,7 +281,6 @@ datatable: true
 | `phase.scheduled.transitions` | [`list`](./list.html) | The phases that can be started after the scheduled phase has activated |
 | `phase.scheduled.propagation.speed` | [`float`](./float.html) | The propagation speed of the scheduled phase, in m/s (0 if there is none) |
 | `phase.scheduled.propagation.arrivaltime.{$component}` | [`time`](./time.html) | The time at which the propagation of the scheduled phase is going to reach the specified component (-1 if there is no active propagation) |
-<div class="datatable-end"></div>
 
 
 

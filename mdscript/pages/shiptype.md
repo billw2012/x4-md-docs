@@ -13,12 +13,10 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `name` | [`string`](./string.html) | Name of the ship type |
 | `description` | [`string`](./string.html) | Description of the ship type |
-<div class="datatable-end"></div>
 
 
 

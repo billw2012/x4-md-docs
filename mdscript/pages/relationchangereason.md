@@ -13,11 +13,9 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `name` | [`string`](./string.html) | Name of the relation change reason |
-<div class="datatable-end"></div>
 
 
 

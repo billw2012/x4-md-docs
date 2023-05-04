@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -74,7 +73,6 @@ datatable: true
 | `research.requiredprecursors` | [`warelist`](./warelist.html) | Research precursors required to unlock access to ware |
 | `research.resources` | [`wareamountlist`](./wareamountlist.html) | Resources needed to process the research |
 | `isprocessed` | [`boolean`](./boolean.html) | true iff ware is processed, e.g. raw scrap |
-<div class="datatable-end"></div>
 
 
 

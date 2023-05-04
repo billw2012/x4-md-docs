@@ -13,11 +13,9 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `wares` | [`warelist`](./warelist.html) | All equipment wares in the loadout |
-<div class="datatable-end"></div>
 
 
 

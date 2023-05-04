@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -66,7 +65,6 @@ datatable: true
 | `representative` | [`entity`](./entity.html) | Given faction representative or null |
 | `headquarters` | [`station`](./station.html) | Given faction's headquarters station or null |
 | `icon` | [`string`](./string.html) | Returns the name of the active faction icon as it is called in the IconLibrary |
-<div class="datatable-end"></div>
 
 
 

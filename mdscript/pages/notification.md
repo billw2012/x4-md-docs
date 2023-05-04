@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `id` | [`string`](./string.html) | ID |
@@ -21,7 +20,6 @@ datatable: true
 | `rawname` | [`string`](./string.html) | Raw name of the notification type, as text entry reference |
 | `description` | [`string`](./string.html) | Description of the notification type |
 | `active` | [`boolean`](./boolean.html) | Are notifications of this type enabled? |
-<div class="datatable-end"></div>
 
 
 

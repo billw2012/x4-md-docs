@@ -13,12 +13,10 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `name` | [`string`](./string.html) | Name of control panel type |
 | `requireditems` | [`wareamountlist`](./wareamountlist.html) | Required items for hacking |
-<div class="datatable-end"></div>
 
 
 

@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `type` | [`roomtype`](./roomtype.html) | Room type |
@@ -40,11 +39,9 @@ datatable: true
 | `controlposition.{$controlposition}.entity` | [`entity`](./entity.html) | Entity currently working at the specified control position |
 | `controlpositions.list` | [`list`](./list.html) | List of component slots which are control positions |
 | `hascontrolpanel.{$controlpaneltype}` | [`boolean`](./boolean.html) | True if this room has a control panel of the specified type |
-<div class="datatable-end"></div>
 
 ## Properties inherited from [`component`](./component.html)
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff the component exists in the game graph |
@@ -190,7 +187,6 @@ datatable: true
 | `phase.scheduled.transitions` | [`list`](./list.html) | The phases that can be started after the scheduled phase has activated |
 | `phase.scheduled.propagation.speed` | [`float`](./float.html) | The propagation speed of the scheduled phase, in m/s (0 if there is none) |
 | `phase.scheduled.propagation.arrivaltime.{$component}` | [`time`](./time.html) | The time at which the propagation of the scheduled phase is going to reach the specified component (-1 if there is no active propagation) |
-<div class="datatable-end"></div>
 
 
 

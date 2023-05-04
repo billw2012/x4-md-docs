@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `count` | [`integer`](./integer.html) | Number of elements in the list |
@@ -26,7 +25,6 @@ datatable: true
 | `min` | [`numeric`](./numeric.html) | The minimum value in the list (all elements must be numeric), or null if the list is empty |
 | `max` | [`numeric`](./numeric.html) | The maximum value in the list (all elements must be numeric), or null if the list is empty |
 | `average` | [`numeric`](./numeric.html) | The average of all list elements (all elements must be numeric), or null if the list is empty |
-<div class="datatable-end"></div>
 
 
 

@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff order exists |
@@ -37,7 +36,6 @@ datatable: true
 | `operation` | [`operation`](./operation.html) | Operation that is associated with this order, or null |
 | `requiredskill` | [`integer`](./integer.html) | Required combined skill of control entity to execute order |
 | `$<param>` | `` | Value of order parameter |
-<div class="datatable-end"></div>
 
 
 

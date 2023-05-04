@@ -13,7 +13,6 @@ datatable: true
 
 ## Properties
 
-<div class="datatable-begin"></div>
 | Name | Type | Description |
 |------|------|-------------|
 | `exists` | [`boolean`](./boolean.html) | true iff licence exists |
@@ -26,7 +25,6 @@ datatable: true
 | `issellable` | [`boolean`](./boolean.html) | true iff licence is sellable from traders |
 | `faction` | [`faction`](./faction.html) | Faction |
 | `type` | [`string`](./string.html) | Licence type |
-<div class="datatable-end"></div>
 
 
 
